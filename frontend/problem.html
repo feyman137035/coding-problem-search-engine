@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Details - Algo Search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-link">
+                    <h1>Algo Search</h1>
+                </a>
+            </div>
+            <form class="nav-search" id="navSearchForm">
+                <input 
+                    type="text" 
+                    class="nav-search-input" 
+                    id="navSearchInput" 
+                    placeholder="Search problems..."
+                    autocomplete="off"
+                >
+                <button type="submit" class="nav-search-button">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </form>
+        </nav>
+    </header>
+
+    <main class="main-problem">
+        <section class="problem-detail" id="problemDetail">
+            <!-- Problem details will be dynamically inserted here -->
+        </section>
+
+        <section class="related-problems" id="relatedProblems">
+            <h3>Related Problems</h3>
+            <div class="related-grid" id="relatedGrid">
+                <!-- Related problems will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Algo Search. Search coding problems efficiently.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/problem-detail.js"></script>
+</body>
+</html>

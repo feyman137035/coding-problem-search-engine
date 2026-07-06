@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo Search - Coding Problem Search Engine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Algo Search</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-home">
+        <section class="hero">
+            <h2 class="hero-title">Find Coding Problems</h2>
+            <p class="hero-subtitle">Search across LeetCode, CodeChef, and Codeforces</p>
+            
+            <form class="search-form" id="searchForm">
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        class="search-input" 
+                        id="searchInput" 
+                        placeholder="Search coding problems... (e.g. binary search, dynamic programming)"
+                        autocomplete="off"
+                    >
+                    <button type="submit" class="search-button">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        Search
+                    </button>
+                </div>
+            </form>
+
+            <div class="quick-tags">
+                <span class="quick-tag" data-query="array">Array</span>
+                <span class="quick-tag" data-query="dynamic programming">Dynamic Programming</span>
+                <span class="quick-tag" data-query="binary search">Binary Search</span>
+                <span class="quick-tag" data-query="graph">Graph</span>
+                <span class="quick-tag" data-query="string">String</span>
+                <span class="quick-tag" data-query="tree">Tree</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Algo Search. Search coding problems efficiently.</p>
+    </footer>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                window.location.href = `results.html?q=${encodeURIComponent(query)}`;
+            }
+        });
+
+        // Quick tag clicks
+        document.querySelectorAll('.quick-tag').forEach(tag => {
+            tag.addEventListener('click', function() {
+                const query = this.getAttribute('data-query');
+                window.location.href = `results.html?q=${encodeURIComponent(query)}`;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - Algo Search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-link">
+                    <h1>Algo Search</h1>
+                </a>
+            </div>
+            <form class="nav-search" id="navSearchForm">
+                <input 
+                    type="text" 
+                    class="nav-search-input" 
+                    id="navSearchInput" 
+                    placeholder="Search problems..."
+                    autocomplete="off"
+                >
+                <button type="submit" class="nav-search-button">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </form>
+        </nav>
+    </header>
+
+    <main class="main-results">
+        <aside class="filters-sidebar" id="filtersSidebar">
+            <div class="filters-header">
+                <h3>Filters</h3>
+                <button class="filters-toggle-mobile" id="filtersToggleMobile">Close</button>
+            </div>
+            
+            <div class="filter-section">
+                <h4>Difficulty</h4>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="Easy" class="filter-difficulty">
+                    <span>Easy</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="Medium" class="filter-difficulty">
+                    <span>Medium</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="Hard" class="filter-difficulty">
+                    <span>Hard</span>
+                </label>
+            </div>
+
+            <div class="filter-section">
+                <h4>Platform</h4>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="LeetCode" class="filter-platform">
+                    <span>LeetCode</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="CodeChef" class="filter-platform">
+                    <span>CodeChef</span>
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" value="Codeforces" class="filter-platform">
+                    <span>Codeforces</span>
+                </label>
+            </div>
+
+            <div class="filter-section">
+                <h4>Tags</h4>
+                <div id="tagsFilters" class="tags-filters">
+                    <!-- Tags will be dynamically generated -->
+                </div>
+            </div>
+
+            <button class="clear-filters" id="clearFilters">Clear All Filters</button>
+        </aside>
+
+        <section class="results-content">
+            <div class="results-header">
+                <button class="filters-toggle-desktop" id="filtersToggleDesktop">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    Filters
+                </button>
+                <p class="results-count" id="resultsCount">Showing 0 of 0 problems</p>
+            </div>
+
+            <div class="results-grid" id="resultsGrid">
+                <!-- Results will be dynamically inserted here -->
+            </div>
+
+            <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="spinner"></div>
+                <p>Loading more problems...</p>
+            </div>
+
+            <div class="end-message" id="endMessage" style="display: none;">
+                <p>You've reached the end of the results</p>
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <svg class="no-results-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <h3>No results found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Algo Search. Search coding problems efficiently.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/infinite-scroll.js"></script>
+</body>
+</html>
