@@ -14,8 +14,11 @@ const stopwords = new Set([
 function tokenize(text) {
   if (!text) return [];
   
+  // Step 0: Remove tags marker but keep tags content
+  let processed = text.replace(/---TAGS---/g, " ");
+  
   // Step 1: Lowercase everything
-  let processed = text.toLowerCase();
+  processed = processed.toLowerCase();
   
   // Step 2: Strip HTML tags/entities
   processed = processed.replace(/<[^>]*>/g, " "); // Remove tags
