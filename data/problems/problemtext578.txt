@@ -1,0 +1,4 @@
+We have two special characters:The first character can be represented by one bit0.The second character can be represented by two bits (10or11).Given a binary arraybitsthat ends with0, returntrueif the last character must be a one-bit character.Example 1:Input:bits = [1,0,0]Output:trueExplanation:The only way to decode it is two-bit character and one-bit character.So the last character is one-bit character.Example 2:Input:bits = [1,1,1,0]Output:falseExplanation:The only way to decode it is two-bit character and two-bit character.So the last character is not one-bit character.Constraints:1 <= bits.length <= 1000bits[i]is either0or1.
+
+---TAGS---
+Array

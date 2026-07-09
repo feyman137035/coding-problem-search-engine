@@ -1,0 +1,4 @@
+Given two numbers,hourandminutes, returnthe smaller angle (in degrees) formed between thehourand theminutehand.Answers within10-5of the actual value will be accepted as correct.Example 1:Input:hour = 12, minutes = 30Output:165Example 2:Input:hour = 3, minutes = 30Output:75Example 3:Input:hour = 3, minutes = 15Output:7.5Constraints:1 <= hour <= 120 <= minutes <= 59
+
+---TAGS---
+Math

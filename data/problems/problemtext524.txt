@@ -1,0 +1,4 @@
+Given therootof a binary tree, return allduplicate subtrees.For each kind of duplicate subtrees, you only need to return the root node of anyoneof them.Two trees areduplicateif they have thesame structurewith thesame node values.Example 1:Input:root = [1,2,3,4,null,2,4,null,null,4]Output:[[2,4],[4]]Example 2:Input:root = [2,1,1]Output:[[1]]Example 3:Input:root = [2,2,2,3,null,3,null]Output:[[2,3],[3]]Constraints:The number of the nodes in the tree will be in the range[1, 5000]-200 <= Node.val <= 200
+
+---TAGS---
+Hash Table, Tree, Depth-First Search, Binary Tree

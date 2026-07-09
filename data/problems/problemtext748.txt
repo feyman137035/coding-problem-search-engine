@@ -1,0 +1,4 @@
+Given an array of integersarr, returntrueif and only if it is a valid mountain array.Recall that arr is a mountain array if and only if:arr.length >= 3There exists someiwith0 < i < arr.length - 1such that:arr[0] < arr[1] < ... < arr[i - 1] < arr[i]arr[i] > arr[i + 1] > ... > arr[arr.length - 1]Example 1:Input:arr = [2,1]Output:falseExample 2:Input:arr = [3,5,5]Output:falseExample 3:Input:arr = [0,3,2,1]Output:trueConstraints:1 <= arr.length <= 1040 <= arr[i] <= 104
+
+---TAGS---
+Array

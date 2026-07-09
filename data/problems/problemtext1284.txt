@@ -1,0 +1,4 @@
+Given anm x nbinary matrixmat, returnthe number of special positions inmat.A position(i, j)is calledspecialifmat[i][j] == 1and all other elements in rowiand columnjare0(rows and columns are0-indexed).Example 1:Input:mat = [[1,0,0],[0,0,1],[1,0,0]]Output:1Explanation:(1, 2) is a special position because mat[1][2] == 1 and all other elements in row 1 and column 2 are 0.Example 2:Input:mat = [[1,0,0],[0,1,0],[0,0,1]]Output:3Explanation:(0, 0), (1, 1) and (2, 2) are special positions.Constraints:m == mat.lengthn == mat[i].length1 <= m, n <= 100mat[i][j]is either0or1.
+
+---TAGS---
+Array, Matrix

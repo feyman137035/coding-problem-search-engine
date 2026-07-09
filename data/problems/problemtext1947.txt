@@ -1,0 +1,4 @@
+You are given a0-indexedstringword, consisting of lowercase English letters. You need to selectoneindex andremovethe letter at that index fromwordso that thefrequencyof every letter present inwordis equal.Returntrueif it is possible to remove one letter so that the frequency of all letters inwordare equal, andfalseotherwise.Note:Thefrequencyof a letterxis the number of times it occurs in the string.Youmustremove exactly one letter and cannot choose to do nothing.Example 1:Input:word = "abcc"Output:trueExplanation:Select index 3 and delete it: word becomes "abc" and each character has a frequency of 1.Example 2:Input:word = "aazz"Output:falseExplanation:We must delete a character, so either the frequency of "a" is 1 and the frequency of "z" is 2, or vice versa. It is impossible to make all present letters have equal frequency.Constraints:2 <= word.length <= 100wordconsists of lowercase English letters only.
+
+---TAGS---
+Hash Table, String, Counting

@@ -1,0 +1,4 @@
+Aperfect numberis apositive integerthat is equal to the sum of itspositive divisors, excluding the number itself. Adivisorof an integerxis an integer that can dividexevenly.Given an integern, returntrueifnis a perfect number, otherwise returnfalse.Example 1:Input:num = 28Output:trueExplanation:28 = 1 + 2 + 4 + 7 + 141, 2, 4, 7, and 14 are all divisors of 28.Example 2:Input:num = 7Output:falseConstraints:1 <= num <= 108
+
+---TAGS---
+Math

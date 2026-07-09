@@ -1,0 +1,4 @@
+Given two string arraysword1andword2, returntrueif the two arraysrepresentthe same string, andfalseotherwise.A string isrepresentedby an array if the array elements concatenatedin orderforms the string.Example 1:Input:word1 = ["ab", "c"], word2 = ["a", "bc"]Output:trueExplanation:word1 represents string "ab" + "c" -> "abc"word2 represents string "a" + "bc" -> "abc"The strings are the same, so return true.Example 2:Input:word1 = ["a", "cb"], word2 = ["ab", "c"]Output:falseExample 3:Input:word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]Output:trueConstraints:1 <= word1.length, word2.length <= 1031 <= word1[i].length, word2[i].length <= 1031 <= sum(word1[i].length), sum(word2[i].length) <= 103word1[i]andword2[i]consist of lowercase letters.
+
+---TAGS---
+Array, String

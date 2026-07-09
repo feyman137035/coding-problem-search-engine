@@ -1,0 +1,4 @@
+Given an integern(in base10) and a basek, returnthesumof the digits ofnafterconvertingnfrom base10to basek.After converting, each digit should be interpreted as a base10number, and the sum should be returned in base10.Example 1:Input:n = 34, k = 6Output:9Explanation:34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.Example 2:Input:n = 10, k = 10Output:1Explanation:n is already in base 10. 1 + 0 = 1.Constraints:1 <= n <= 1002 <= k <= 10
+
+---TAGS---
+Math

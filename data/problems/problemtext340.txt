@@ -1,0 +1,4 @@
+Given an integern, returna string arrayanswer(1-indexed) where:answer[i] == "FizzBuzz"ifiis divisible by3and5.answer[i] == "Fizz"ifiis divisible by3.answer[i] == "Buzz"ifiis divisible by5.answer[i] == i(as a string) if none of the above conditions are true.Example 1:Input:n = 3Output:["1","2","Fizz"]Example 2:Input:n = 5Output:["1","2","Fizz","4","Buzz"]Example 3:Input:n = 15Output:["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]Constraints:1 <= n <= 104
+
+---TAGS---
+Math, String, Simulation

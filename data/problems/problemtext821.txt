@@ -1,0 +1,4 @@
+You are given an integer arrayvalueswhere values[i] represents the value of theithsightseeing spot. Two sightseeing spotsiandjhave adistancej - ibetween them.The score of a pair (i < j) of sightseeing spots isvalues[i] + values[j] + i - j: the sum of the values of the sightseeing spots, minus the distance between them.Returnthe maximum score of a pair of sightseeing spots.Example 1:Input:values = [8,1,5,2,6]Output:11Explanation:i = 0, j = 2, values[i] + values[j] + i - j = 8 + 5 + 0 - 2 = 11Example 2:Input:values = [1,2]Output:2Constraints:2 <= values.length <= 5 * 1041 <= values[i] <= 1000
+
+---TAGS---
+Array, Dynamic Programming

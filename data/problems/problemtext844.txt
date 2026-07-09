@@ -1,0 +1,4 @@
+Given an arraypointswherepoints[i] = [xi, yi]represents a point on theX-Yplane, returntrueif these points are aboomerang.Aboomerangis a set of three points that areall distinctandnot in a straight line.Example 1:Input:points = [[1,1],[2,3],[3,2]]Output:trueExample 2:Input:points = [[1,1],[2,2],[3,3]]Output:falseConstraints:points.length == 3points[i].length == 20 <= xi, yi<= 100
+
+---TAGS---
+Array, Math, Geometry

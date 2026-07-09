@@ -1,0 +1,4 @@
+You are given an integern.We need to group the numbers from1tonaccording to the sum of its digits. For example, the numbers 14 and 5 belong to thesamegroup, whereas 13 and 3 belong todifferentgroups.Return the number of groups that have the largest size, i.e. themaximumnumber of elements.Example 1:Input:n = 13Output:4Explanation:There are 9 groups in total, they are grouped according sum of its digits of numbers from 1 to 13:[1,10], [2,11], [3,12], [4,13], [5], [6], [7], [8], [9].There are 4 groups with largest size.Example 2:Input:n = 2Output:2Explanation:There are 2 groups [1], [2] of size 1.Constraints:1 <= n <= 104
+
+---TAGS---
+Hash Table, Math, Counting

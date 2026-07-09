@@ -1,0 +1,4 @@
+For a stringsequence, a stringwordisk-repeatingifwordconcatenatedktimes is a substring ofsequence. Theword'smaximumk-repeating valueis the highest valuekwherewordisk-repeating insequence. Ifwordis not a substring ofsequence,word's maximumk-repeating value is0.Given stringssequenceandword, returnthemaximumk-repeating valueofwordinsequence.Example 1:Input:sequence = "ababc", word = "ab"Output:2Explanation:"abab" is a substring in "ababc".Example 2:Input:sequence = "ababc", word = "ba"Output:1Explanation:"ba" is a substring in "ababc". "baba" is not a substring in "ababc".Example 3:Input:sequence = "ababc", word = "ac"Output:0Explanation:"ac" is not a substring in "ababc".Constraints:1 <= sequence.length <= 1001 <= word.length <= 100sequenceandwordcontains only lowercase English letters.
+
+---TAGS---
+String, Dynamic Programming, String Matching

@@ -1,0 +1,4 @@
+Given two stringsstr1andstr2, returnthe shortest string that has bothstr1andstr2assubsequences. If there are multiple valid strings, returnanyof them.A stringsis asubsequenceof stringtif deleting some number of characters fromt(possibly0) results in the strings.Example 1:Input:str1 = "abac", str2 = "cab"Output:"cabac"Explanation:str1 = "abac" is a subsequence of "cabac" because we can delete the first "c".str2 = "cab" is a subsequence of "cabac" because we can delete the last "ac".The answer provided is the shortest such string that satisfies these properties.Example 2:Input:str1 = "aaaaaaaa", str2 = "aaaaaaaa"Output:"aaaaaaaa"Constraints:1 <= str1.length, str2.length <= 1000str1andstr2consist of lowercase English letters.
+
+---TAGS---
+String, Dynamic Programming

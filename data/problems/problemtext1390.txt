@@ -1,0 +1,4 @@
+Hercy wants to save money for his first car. He puts money in the Leetcode bankevery day.He starts by putting in$1on Monday, the first day. Every day from Tuesday to Sunday, he will put in$1more than the day before. On every subsequent Monday, he will put in$1more than theprevious Monday.Givenn, returnthe total amount of money he will have in the Leetcode bank at the end of thenthday.Example 1:Input:n = 4Output:10Explanation:After the 4thday, the total is 1 + 2 + 3 + 4 = 10.Example 2:Input:n = 10Output:37Explanation:After the 10thday, the total is (1 + 2 + 3 + 4 + 5 + 6 + 7) + (2 + 3 + 4) = 37. Notice that on the 2ndMonday, Hercy only puts in $2.Example 3:Input:n = 20Output:96Explanation:After the 20thday, the total is (1 + 2 + 3 + 4 + 5 + 6 + 7) + (2 + 3 + 4 + 5 + 6 + 7 + 8) + (3 + 4 + 5 + 6 + 7 + 8) = 96.Constraints:1 <= n <= 1000
+
+---TAGS---
+Math

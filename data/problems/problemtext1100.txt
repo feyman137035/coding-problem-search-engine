@@ -1,0 +1,4 @@
+You have agridof sizen x 3and you want to paint each cell of the grid with exactly one of the three colors:Red,Yellow,orGreenwhile making sure that no two adjacent cells have the same color (i.e., no two cells that share vertical or horizontal sides have the same color).Givennthe number of rows of the grid, returnthe number of waysyou can paint thisgrid. As the answer may grow large, the answermust becomputed modulo109+ 7.Example 1:Input:n = 1Output:12Explanation:There are 12 possible way to paint the grid as shown.Example 2:Input:n = 5000Output:30228214Constraints:n == grid.length1 <= n <= 5000
+
+---TAGS---
+Dynamic Programming

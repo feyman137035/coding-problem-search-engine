@@ -1,0 +1,4 @@
+Given theheadof a singly linked list and two integersleftandrightwhereleft <= right, reverse the nodes of the list from positionleftto positionright, and returnthe reversed list.Example 1:Input:head = [1,2,3,4,5], left = 2, right = 4Output:[1,4,3,2,5]Example 2:Input:head = [5], left = 1, right = 1Output:[5]Constraints:The number of nodes in the list isn.1 <= n <= 500-500 <= Node.val <= 5001 <= left <= right <= nFollow up:Could you do it in one pass?
+
+---TAGS---
+Linked List

@@ -1,0 +1,4 @@
+You are given a stringscontaining lowercase letters and an integerk. You need to :First, change some characters ofsto other lowercase English letters.Then dividesintoknon-empty disjoint substrings such that each substring is a palindrome.Returnthe minimal number of characters that you need to change to divide the string.Example 1:Input:s = "abc", k = 2Output:1Explanation:You can split the string into "ab" and "c", and change 1 character in "ab" to make it palindrome.Example 2:Input:s = "aabbc", k = 3Output:0Explanation:You can split the string into "aa", "bb" and "c", all of them are palindrome.Example 3:Input:s = "leetcode", k = 8Output:0Constraints:1 <= k <= s.length <= 100.sonly contains lowercase English letters.
+
+---TAGS---
+String, Dynamic Programming

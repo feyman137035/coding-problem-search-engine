@@ -1,0 +1,4 @@
+You are given a0-indexedinteger arraynums, wherenums[i]is a digit between0and9(inclusive).Thetriangular sumofnumsis the value of the only element present innumsafter the following process terminates:Letnumscomprise ofnelements. Ifn == 1,endthe process. Otherwise,createa new0-indexedinteger arraynewNumsof lengthn - 1.For each indexi, where0 <= i < n - 1,assignthe value ofnewNums[i]as(nums[i] + nums[i+1]) % 10, where%denotes modulo operator.Replacethe arraynumswithnewNums.Repeatthe entire process starting from step 1.Returnthe triangular sum ofnums.Example 1:Input:nums = [1,2,3,4,5]Output:8Explanation:The above diagram depicts the process from which we obtain the triangular sum of the array.Example 2:Input:nums = [5]Output:5Explanation:Since there is only one element in nums, the triangular sum is the value of that element itself.Constraints:1 <= nums.length <= 10000 <= nums[i] <= 9
+
+---TAGS---
+Array, Math, Simulation, Combinatorics, Number Theory

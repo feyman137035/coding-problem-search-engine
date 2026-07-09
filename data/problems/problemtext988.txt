@@ -1,0 +1,4 @@
+Given an arrayintervalswhereintervals[i] = [li, ri]represent the interval[li, ri), remove all intervals that are covered by another interval in the list.The interval[a, b)is covered by the interval[c, d)if and only ifc <= aandb <= d.Returnthe number of remaining intervals.Example 1:Input:intervals = [[1,4],[3,6],[2,8]]Output:2Explanation:Interval [3,6] is covered by [2,8], therefore it is removed.Example 2:Input:intervals = [[1,4],[2,3]]Output:1Constraints:1 <= intervals.length <= 1000intervals[i].length == 20 <= li< ri<= 105All the given intervals areunique.
+
+---TAGS---
+Array, Sorting

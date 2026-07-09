@@ -1,0 +1,4 @@
+You are given ann x nbinary matrixgrid. You are allowed to changeat most one0to be1.Returnthe size of the largestislandingridafter applying this operation.Anislandis a 4-directionally connected group of1s.Example 1:Input:grid = [[1,0],[0,1]]Output:3Explanation:Change one 0 to 1 and connect two 1s, then we get an island with area = 3.Example 2:Input:grid = [[1,1],[1,0]]Output:4Explanation:Change the 0 to 1 and make the island bigger, only one island with area = 4.Example 3:Input:grid = [[1,1],[1,1]]Output:4Explanation:Can't change any 0 to 1, only one island with area = 4.Constraints:n == grid.lengthn == grid[i].length1 <= n <= 500grid[i][j]is either0or1.
+
+---TAGS---
+Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix

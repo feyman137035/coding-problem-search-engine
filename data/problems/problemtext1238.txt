@@ -1,0 +1,4 @@
+Given two non-negative integerslowandhigh. Return thecount of odd numbers betweenlowandhigh(inclusive).Example 1:Input:low = 3, high = 7Output:3Explanation:The odd numbers between 3 and 7 are [3,5,7].Example 2:Input:low = 8, high = 10Output:1Explanation:The odd numbers between 8 and 10 are [9].Constraints:0 <= low <= high <= 10^9
+
+---TAGS---
+Math

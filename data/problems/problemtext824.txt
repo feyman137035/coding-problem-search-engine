@@ -1,0 +1,4 @@
+Given an integern, returna binary string representing its representation in base-2.Notethat the returned string should not have leading zeros unless the string is"0".Example 1:Input:n = 2Output:"110"Explantion:(-2)2+ (-2)1= 2Example 2:Input:n = 3Output:"111"Explantion:(-2)2+ (-2)1+ (-2)0= 3Example 3:Input:n = 4Output:"100"Explantion:(-2)2= 4Constraints:0 <= n <= 109
+
+---TAGS---
+Math

@@ -1,0 +1,4 @@
+Given a strings, returntrueifsis agoodstring, orfalseotherwise.A stringsisgoodifallthe characters that appear inshave thesamenumber of occurrences (i.e., the same frequency).Example 1:Input:s = "abacbc"Output:trueExplanation:The characters that appear in s are 'a', 'b', and 'c'. All characters occur 2 times in s.Example 2:Input:s = "aaabb"Output:falseExplanation:The characters that appear in s are 'a' and 'b'.'a' occurs 3 times while 'b' occurs 2 times, which is not the same number of times.Constraints:1 <= s.length <= 1000sconsists of lowercase English letters.
+
+---TAGS---
+Hash Table, String, Counting

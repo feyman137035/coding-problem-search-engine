@@ -1,0 +1,4 @@
+Given two stringsfirstandsecond, consider occurrences in some text of the form"first second third", wheresecondcomes immediately afterfirst, andthirdcomes immediately aftersecond.Returnan array of all the wordsthirdfor each occurrence of"first second third".Example 1:Input:text = "alice is a good girl she is a good student", first = "a", second = "good"Output:["girl","student"]Example 2:Input:text = "we will we will rock you", first = "we", second = "will"Output:["we","rock"]Constraints:1 <= text.length <= 1000textconsists of lowercase English letters and spaces.All the words intextare separated bya single space.1 <= first.length, second.length <= 10firstandsecondconsist of lowercase English letters.textwill not have any leading or trailing spaces.
+
+---TAGS---
+String

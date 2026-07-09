@@ -1,0 +1,4 @@
+Asentenceis a string of single-space separated words where each word consists only of lowercase letters.A word isuncommonif it appears exactly once in one of the sentences, anddoes not appearin the other sentence.Given twosentencess1ands2, returna list of all theuncommon words. You may return the answer inany order.Example 1:Input:s1 = "this apple is sweet", s2 = "this apple is sour"Output:["sweet","sour"]Explanation:The word"sweet"appears only ins1, while the word"sour"appears only ins2.Example 2:Input:s1 = "apple apple", s2 = "banana"Output:["banana"]Constraints:1 <= s1.length, s2.length <= 200s1ands2consist of lowercase English letters and spaces.s1ands2do not have leading or trailing spaces.All the words ins1ands2are separated by a single space.
+
+---TAGS---
+Hash Table, String, Counting

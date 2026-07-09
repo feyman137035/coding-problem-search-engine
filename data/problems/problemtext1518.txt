@@ -1,0 +1,4 @@
+Thepair sumof a pair(a,b)is equal toa + b. Themaximum pair sumis the largestpair sumin a list of pairs.For example, if we have pairs(1,5),(2,3), and(4,4), themaximum pair sumwould bemax(1+5, 2+3, 4+4) = max(6, 5, 8) = 8.Given an arraynumsofevenlengthn, pair up the elements ofnumsinton / 2pairs such that:Each element ofnumsis inexactly onepair, andThemaximum pair sumisminimized.Returnthe minimizedmaximum pair sumafter optimally pairing up the elements.Example 1:Input:nums = [3,5,2,3]Output:7Explanation:The elements can be paired up into pairs (3,3) and (5,2).The maximum pair sum is max(3+3, 5+2) = max(6, 7) = 7.Example 2:Input:nums = [3,5,4,2,4,6]Output:8Explanation:The elements can be paired up into pairs (3,5), (4,4), and (6,2).The maximum pair sum is max(3+5, 4+4, 6+2) = max(8, 8, 8) = 8.Constraints:n == nums.length2 <= n <= 105niseven.1 <= nums[i] <= 105
+
+---TAGS---
+Array, Two Pointers, Greedy, Sorting

@@ -1,0 +1,4 @@
+You are given therootof abinary treethat consists of exactly3nodes: the root, its left child, and its right child.Returntrueif the value of the root is equal to thesumof the values of its two children, orfalseotherwise.Example 1:Input:root = [10,4,6]Output:trueExplanation:The values of the root, its left child, and its right child are 10, 4, and 6, respectively.10 is equal to 4 + 6, so we return true.Example 2:Input:root = [5,3,1]Output:falseExplanation:The values of the root, its left child, and its right child are 5, 3, and 1, respectively.5 is not equal to 3 + 1, so we return false.Constraints:The tree consists only of the root, its left child, and its right child.-100 <= Node.val <= 100
+
+---TAGS---
+Tree, Binary Tree

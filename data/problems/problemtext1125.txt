@@ -1,0 +1,4 @@
+Thepowerof the string is the maximum length of a non-empty substring that contains only one unique character.Given a strings, returnthepowerofs.Example 1:Input:s = "leetcode"Output:2Explanation:The substring "ee" is of length 2 with the character 'e' only.Example 2:Input:s = "abbcccddddeeeeedcba"Output:5Explanation:The substring "eeeee" is of length 5 with the character 'e' only.Constraints:1 <= s.length <= 500sconsists of only lowercase English letters.
+
+---TAGS---
+String

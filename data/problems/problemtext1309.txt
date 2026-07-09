@@ -1,0 +1,4 @@
+Given avalid parentheses strings, return thenesting depthofs. The nesting depth is themaximumnumber of nested parentheses.Example 1:Input:s = "(1+(2*3)+((8)/4))+1"Output:3Explanation:Digit 8 is inside of 3 nested parentheses in the string.Example 2:Input:s = "(1)+((2))+(((3)))"Output:3Explanation:Digit 3 is inside of 3 nested parentheses in the string.Example 3:Input:s = "()(())((()()))"Output:3Constraints:1 <= s.length <= 100sconsists of digits0-9and characters'+','-','*','/','(', and')'.It is guaranteed that parentheses expressionsis a VPS.
+
+---TAGS---
+String, Stack

@@ -1,0 +1,4 @@
+You are given a positive integernumconsisting only of digits6and9.Returnthe maximum number you can get by changingat mostone digit (6becomes9, and9becomes6).Example 1:Input:num = 9669Output:9969Explanation:Changing the first digit results in 6669.Changing the second digit results in 9969.Changing the third digit results in 9699.Changing the fourth digit results in 9666.The maximum number is 9969.Example 2:Input:num = 9996Output:9999Explanation:Changing the last digit 6 to 9 results in the maximum number.Example 3:Input:num = 9999Output:9999Explanation:It is better not to apply any change.Constraints:1 <= num <= 104numconsists of only6and9digits.
+
+---TAGS---
+Math, Greedy

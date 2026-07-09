@@ -1,0 +1,4 @@
+Given ann x nbinary matrixgrid, returnthe length of the shortestclear pathin the matrix. If there is no clear path, return-1.Aclear pathin a binary matrix is a path from thetop-leftcell (i.e.,(0, 0)) to thebottom-rightcell (i.e.,(n - 1, n - 1)) such that:All the visited cells of the path are0.All the adjacent cells of the path are8-directionallyconnected (i.e., they are different and they share an edge or a corner).Thelength of a clear pathis the number of visited cells of this path.Example 1:Input:grid = [[0,1],[1,0]]Output:2Example 2:Input:grid = [[0,0,0],[1,1,0],[1,1,0]]Output:4Example 3:Input:grid = [[1,0,0],[1,1,0],[1,1,0]]Output:-1Constraints:n == grid.lengthn == grid[i].length1 <= n <= 100grid[i][j] is 0 or 1
+
+---TAGS---
+Array, Breadth-First Search, Matrix

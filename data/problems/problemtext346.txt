@@ -1,0 +1,4 @@
+Given anm x nmatrixboardwhere each cell is a battleship'X'or empty'.', returnthe number of thebattleshipsonboard.Battleshipscan only be placed horizontally or vertically onboard. In other words, they can only be made of the shape1 x k(1row,kcolumns) ork x 1(krows,1column), wherekcan be of any size. At least one horizontal or vertical cell separates between two battleships (i.e., there are no adjacent battleships).Example 1:Input:board = [["X",".",".","X"],[".",".",".","X"],[".",".",".","X"]]Output:2Example 2:Input:board = [["."]]Output:0Constraints:m == board.lengthn == board[i].length1 <= m, n <= 200board[i][j]is either'.'or'X'.Follow up:Could you do it in one-pass, using onlyO(1)extra memory and without modifying the valuesboard?
+
+---TAGS---
+Array, Depth-First Search, Matrix

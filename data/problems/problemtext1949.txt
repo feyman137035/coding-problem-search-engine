@@ -1,0 +1,4 @@
+You are given two0-indexedarrays,nums1andnums2, consisting of non-negative integers. Let there be another array,nums3, which contains the bitwise XOR ofall pairingsof integers betweennums1andnums2(every integer innums1is paired with every integer innums2exactly once).Returnthebitwise XORof all integers innums3.Example 1:Input:nums1 = [2,1,3], nums2 = [10,2,5,0]Output:13Explanation:A possible nums3 array is [8,0,7,2,11,3,4,1,9,1,6,3].The bitwise XOR of all these numbers is 13, so we return 13.Example 2:Input:nums1 = [1,2], nums2 = [3,4]Output:0Explanation:All possible pairs of bitwise XORs are nums1[0] ^ nums2[0], nums1[0] ^ nums2[1], nums1[1] ^ nums2[0],and nums1[1] ^ nums2[1].Thus, one possible nums3 array is [2,5,1,6].2 ^ 5 ^ 1 ^ 6 = 0, so we return 0.Constraints:1 <= nums1.length, nums2.length <= 1050 <= nums1[i], nums2[j] <= 109
+
+---TAGS---
+Array, Bit Manipulation, Brainteaser

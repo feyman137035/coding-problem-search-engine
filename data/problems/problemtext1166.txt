@@ -1,0 +1,4 @@
+Given therootof a binary tree, the value of a target nodetarget, and an integerk, returnan array of the values of all nodes that have a distancekfrom the target node.You can return the answer inany order.Example 1:Input:root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, k = 2Output:[7,4,1]Explanation: The nodes that are a distance 2 from the target node (with value 5) have values 7, 4, and 1.Example 2:Input:root = [1], target = 1, k = 3Output:[]Constraints:The number of nodes in the tree is in the range[1, 500].0 <= Node.val <= 500All the valuesNode.valareunique.targetis the value of one of the nodes in the tree.0 <= k <= 1000
+
+---TAGS---
+Hash Table, Tree, Depth-First Search, Breadth-First Search, Binary Tree

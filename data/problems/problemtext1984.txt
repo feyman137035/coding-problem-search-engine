@@ -1,0 +1,4 @@
+Given the integerszero,one,low, andhigh, we can construct a string by starting with an empty string, and then at each step perform either of the following:Append the character'0'zerotimes.Append the character'1'onetimes.This can be performed any number of times.Agoodstring is a string constructed by the above process having alengthbetweenlowandhigh(inclusive).Returnthe number ofdifferentgood strings that can be constructed satisfying these properties.Since the answer can be large, return itmodulo109+ 7.Example 1:Input:low = 3, high = 3, zero = 1, one = 1Output:8Explanation:One possible valid good string is "011". It can be constructed as follows: "" -> "0" -> "01" -> "011". All binary strings from "000" to "111" are good strings in this example.Example 2:Input:low = 2, high = 3, zero = 1, one = 2Output:5Explanation:The good strings are "00", "11", "000", "110", and "011".Constraints:1 <= low <= high <= 1051 <= zero, one <= low
+
+---TAGS---
+Dynamic Programming

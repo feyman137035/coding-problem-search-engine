@@ -1,0 +1,4 @@
+There is a car withcapacityempty seats. The vehicle only drives east (i.e., it cannot turn around and drive west).You are given the integercapacityand an arraytripswheretrips[i] = [numPassengersi, fromi, toi]indicates that theithtrip hasnumPassengersipassengers and the locations to pick them up and drop them off arefromiandtoirespectively. The locations are given as the number of kilometers due east from the car's initial location.Returntrueif it is possible to pick up and drop off all passengers for all the given trips, orfalseotherwise.Example 1:Input:trips = [[2,1,5],[3,3,7]], capacity = 4Output:falseExample 2:Input:trips = [[2,1,5],[3,3,7]], capacity = 5Output:trueConstraints:1 <= trips.length <= 1000trips[i].length == 31 <= numPassengersi<= 1000 <= fromi< toi<= 10001 <= capacity <= 105
+
+---TAGS---
+Array, Sorting, Heap (Priority Queue), Simulation, Prefix Sum

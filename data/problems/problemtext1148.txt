@@ -1,0 +1,4 @@
+You may recall that an arrayarris amountain arrayif and only if:arr.length >= 3There exists some indexi(0-indexed) with0 < i < arr.length - 1such that:arr[0] < arr[1] < ... < arr[i - 1] < arr[i]arr[i] > arr[i + 1] > ... > arr[arr.length - 1]Given an integer arrayarr, returnthe length of the longest subarray, which is a mountain. Return0if there is no mountain subarray.Example 1:Input:arr = [2,1,4,7,3,2,5]Output:5Explanation:The largest mountain is [1,4,7,3,2] which has length 5.Example 2:Input:arr = [2,2,2]Output:0Explanation:There is no mountain.Constraints:1 <= arr.length <= 1040 <= arr[i] <= 104Follow up:Can you solve it using only one pass?Can you solve it inO(1)space?
+
+---TAGS---
+Array, Two Pointers, Dynamic Programming, Enumeration

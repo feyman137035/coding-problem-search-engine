@@ -1,0 +1,4 @@
+You are given an integer arraynumsand an integerk. You can partition the array intoat mostknon-empty adjacent subarrays. Thescoreof a partition is the sum of the averages of each subarray.Note that the partition must use every integer innums, and that the score is not necessarily an integer.Returnthe maximumscoreyou can achieve of all the possible partitions. Answers within10-6of the actual answer will be accepted.Example 1:Input:nums = [9,1,2,3,9], k = 3Output:20.00000Explanation:The best choice is to partition nums into [9], [1, 2, 3], [9]. The answer is 9 + (1 + 2 + 3) / 3 + 9 = 20.We could have also partitioned nums into [9, 1], [2], [3, 9], for example.That partition would lead to a score of 5 + 2 + 6 = 13, which is worse.Example 2:Input:nums = [1,2,3,4,5,6,7], k = 4Output:20.50000Constraints:1 <= nums.length <= 1001 <= nums[i] <= 1041 <= k <= nums.length
+
+---TAGS---
+Array, Dynamic Programming, Prefix Sum

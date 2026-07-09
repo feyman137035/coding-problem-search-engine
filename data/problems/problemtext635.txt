@@ -1,0 +1,4 @@
+An integerxis agoodif after rotating each digit individually by 180 degrees, we get a valid number that is different fromx. Each digit must be rotated - we cannot choose to leave it alone.A number is valid if each digit remains a digit after rotation. For example:0,1, and8rotate to themselves,2and5rotate to each other (in this case they are rotated in a different direction, in other words,2or5gets mirrored),6and9rotate to each other, andthe rest of the numbers do not rotate to any other number and become invalid.Given an integern, returnthe number ofgoodintegers in the range[1, n].Example 1:Input:n = 10Output:4Explanation:There are four good numbers in the range [1, 10] : 2, 5, 6, 9.Note that 1 and 10 are not good numbers, since they remain unchanged after rotating.Example 2:Input:n = 1Output:0Example 3:Input:n = 2Output:1Constraints:1 <= n <= 104
+
+---TAGS---
+Math, Dynamic Programming

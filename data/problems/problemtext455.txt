@@ -1,0 +1,4 @@
+Given a positive integern, findthe smallest integer which has exactly the same digits existing in the integernand is greater in value thann. If no such positive integer exists, return-1.Notethat the returned integer should fit in32-bit integer, if there is a valid answer but it does not fit in32-bit integer, return-1.Example 1:Input:n = 12Output:21Example 2:Input:n = 21Output:-1Constraints:1 <= n <= 231- 1
+
+---TAGS---
+Math, Two Pointers, String

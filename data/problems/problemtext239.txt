@@ -1,0 +1,4 @@
+Anugly numberis apositiveinteger which does not have a prime factor other than 2, 3, and 5.Given an integern, returntrueifnis anugly number.Example 1:Input:n = 6Output:trueExplanation:6 = 2 × 3Example 2:Input:n = 1Output:trueExplanation:1 has no prime factors.Example 3:Input:n = 14Output:falseExplanation:14 is not ugly since it includes the prime factor 7.Constraints:-231<= n <= 231- 1
+
+---TAGS---
+Math

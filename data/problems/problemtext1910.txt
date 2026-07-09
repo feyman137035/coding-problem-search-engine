@@ -1,0 +1,4 @@
+We call a positive integerspecialif all of its digits aredistinct.Given apositiveintegern, returnthe number of special integers that belong to the interval[1, n].Example 1:Input:n = 20Output:19Explanation:All the integers from 1 to 20, except 11, are special. Thus, there are 19 special integers.Example 2:Input:n = 5Output:5Explanation:All the integers from 1 to 5 are special.Example 3:Input:n = 135Output:110Explanation:There are 110 integers from 1 to 135 that are special.Some of the integers that are not special are: 22, 114, and 131.Constraints:1 <= n <= 2 * 109
+
+---TAGS---
+Math, Dynamic Programming

@@ -1,0 +1,4 @@
+A binary string is monotone increasing if it consists of some number of0's (possibly none), followed by some number of1's (also possibly none).You are given a binary strings. You can flips[i]changing it from0to1or from1to0.Returnthe minimum number of flips to makesmonotone increasing.Example 1:Input:s = "00110"Output:1Explanation:We flip the last digit to get 00111.Example 2:Input:s = "010110"Output:2Explanation:We flip to get 011111, or alternatively 000111.Example 3:Input:s = "00011000"Output:2Explanation:We flip to get 00000000.Constraints:1 <= s.length <= 105s[i]is either'0'or'1'.
+
+---TAGS---
+String, Dynamic Programming

@@ -1,0 +1,4 @@
+You are given a stringsconsisting ofncharacters which are either'X'or'O'.Amoveis defined as selectingthreeconsecutive charactersofsand converting them to'O'. Note that if a move is applied to the character'O', it will stay thesame.Returntheminimumnumber of moves required so that all the characters ofsare converted to'O'.Example 1:Input:s = "XXX"Output:1Explanation:XXX-> OOOWe select all the 3 characters and convert them in one move.Example 2:Input:s = "XXOX"Output:2Explanation:XXOX -> OOOX-> OOOOWe select the first 3 characters in the first move, and convert them to'O'.Then we select the last 3 characters and convert them so that the final string contains all'O's.Example 3:Input:s = "OOOO"Output:0Explanation:There are no'X'sinsto convert.Constraints:3 <= s.length <= 1000s[i]is either'X'or'O'.
+
+---TAGS---
+String, Greedy

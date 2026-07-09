@@ -1,0 +1,4 @@
+Given two integers n and k, returnan array of all the integers of lengthnwhere the difference between every two consecutive digits isk. You may return the answer inany order.Note that the integers should not have leading zeros. Integers as02and043are not allowed.Example 1:Input:n = 3, k = 7Output:[181,292,707,818,929]Explanation:Note that 070 is not a valid number, because it has leading zeroes.Example 2:Input:n = 2, k = 1Output:[10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]Constraints:2 <= n <= 90 <= k <= 9
+
+---TAGS---
+Backtracking, Breadth-First Search

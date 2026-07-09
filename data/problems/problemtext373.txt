@@ -1,0 +1,4 @@
+Given an integer arraynumsof sizen, returnthe minimum number of moves required to make all array elements equal.In one move, you can incrementn - 1elements of the array by1.Example 1:Input:nums = [1,2,3]Output:3Explanation:Only three moves are needed (remember each move increments two elements):[1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]Example 2:Input:nums = [1,1,1]Output:0Constraints:n == nums.length1 <= nums.length <= 105-109<= nums[i] <= 109The answer is guaranteed to fit in a32-bitinteger.
+
+---TAGS---
+Array, Math

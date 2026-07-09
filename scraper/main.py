@@ -67,13 +67,15 @@ def main():
                 break
             try:
                 print(f"Scraping LeetCode problem {i+1}/{len(leetcode_problems)}: {problem['title']}")
-                content = fetch_leetcode_problem_content(problem["slug"])
-                if content:
+                result = fetch_leetcode_problem_content(problem["slug"])
+                if result:
+                    content = result["content"]
+                    tags = result["tags"]
                     current_index += 1
                     leetcode_count += 1
                     append_to_file(problem_urls_path, problem["url"])
                     append_to_file(problem_titles_path, problem["title"])
-                    save_problem(current_index, content)
+                    save_problem(current_index, content, tags)
                     checkpoint["last_leetcode_index"] = i + 1
                     checkpoint["total_scraped"] = current_index
                     save_checkpoint(checkpoint)
@@ -134,10 +136,13 @@ def main():
                 if "leetcode.com" in url:
                     slug = url.split("/problems/")[1].rstrip("/")
                     title = slug.replace("-", " ").title()
-                    content = fetch_leetcode_problem_content(slug)
+                    result = fetch_leetcode_problem_content(slug)
+                    content = result["content"] if result else None
+                    tags = result["tags"] if result else None
                 elif "codechef.com" in url and driver:
                     title = "CodeChef Problem"
                     content = fetch_codechef_problem_content(driver, url)
+                    tags = None
                 if content:
                     current_index += 1
                     if "leetcode.com" in url:
@@ -146,7 +151,7 @@ def main():
                         codechef_count += 1
                     append_to_file(problem_urls_path, url)
                     append_to_file(problem_titles_path, title)
-                    save_problem(current_index, content)
+                    save_problem(current_index, content, tags)
                     failed_urls.remove(url)
                     checkpoint["total_scraped"] = current_index
                     checkpoint["failed_urls"] = failed_urls

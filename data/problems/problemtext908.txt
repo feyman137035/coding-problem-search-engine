@@ -1,0 +1,4 @@
+Given two stringstext1andtext2, returnthe length of their longestcommon subsequence.If there is nocommon subsequence, return0.Asubsequenceof a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.For example,"ace"is a subsequence of"abcde".Acommon subsequenceof two strings is a subsequence that is common to both strings.Example 1:Input:text1 = "abcde", text2 = "ace"Output:3Explanation:The longest common subsequence is "ace" and its length is 3.Example 2:Input:text1 = "abc", text2 = "abc"Output:3Explanation:The longest common subsequence is "abc" and its length is 3.Example 3:Input:text1 = "abc", text2 = "def"Output:0Explanation:There is no such common subsequence, so the result is 0.Constraints:1 <= text1.length, text2.length <= 1000text1andtext2consist of only lowercase English characters.
+
+---TAGS---
+String, Dynamic Programming

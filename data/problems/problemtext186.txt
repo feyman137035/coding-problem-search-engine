@@ -1,0 +1,4 @@
+Given a text filefile.txt, transpose its content.You may assume that each row has the same number of columns, and each field is separated by the' 'character.Example:Iffile.txthas the following content:name agealice 21ryan 30Output the following:name alice ryanage 21 30
+
+---TAGS---
+Shell

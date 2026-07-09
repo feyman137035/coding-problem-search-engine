@@ -1,0 +1,4 @@
+Given two integer arrays,preorderandpostorderwherepreorderis the preorder traversal of a binary tree ofdistinctvalues andpostorderis the postorder traversal of the same tree, reconstruct and returnthe binary tree.If there exist multiple answers, you canreturn anyof them.Example 1:Input:preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]Output:[1,2,3,4,5,6,7]Example 2:Input:preorder = [1], postorder = [1]Output:[1]Constraints:1 <= preorder.length <= 301 <= preorder[i] <= preorder.lengthAll the values ofpreorderareunique.postorder.length == preorder.length1 <= postorder[i] <= postorder.lengthAll the values ofpostorderareunique.It is guaranteed thatpreorderandpostorderare the preorder traversal and postorder traversal of the same binary tree.
+
+---TAGS---
+Array, Hash Table, Divide and Conquer, Tree, Binary Tree

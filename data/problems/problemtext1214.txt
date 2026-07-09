@@ -1,0 +1,4 @@
+You are given two positive integersnandk. A factor of an integernis defined as an integeriwheren % i == 0.Consider a list of all factors ofnsorted inascending order, returnthekthfactorin this list or return-1ifnhas less thankfactors.Example 1:Input:n = 12, k = 3Output:3Explanation:Factors list is [1, 2, 3, 4, 6, 12], the 3rdfactor is 3.Example 2:Input:n = 7, k = 2Output:7Explanation:Factors list is [1, 7], the 2ndfactor is 7.Example 3:Input:n = 4, k = 4Output:-1Explanation:Factors list is [1, 2, 4], there is only 3 factors. We should return -1.Constraints:1 <= k <= n <= 1000Follow up:Could you solve this problem in less than O(n) complexity?
+
+---TAGS---
+Math, Number Theory

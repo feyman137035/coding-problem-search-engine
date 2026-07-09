@@ -1,0 +1,4 @@
+Write a bash script to calculate thefrequencyof each word in a text filewords.txt.For simplicity sake, you may assume:words.txtcontains only lowercase characters and space' 'characters.Each word must consist of lowercase characters only.Words are separated by one or more whitespace characters.Example:Assume thatwords.txthas the following content:the day is sunny the thethe sunny is isYour script should output the following, sorted by descending frequency:the 4is 3sunny 2day 1Note:Don't worry about handling ties, it is guaranteed that each word's frequency count is unique.Could you write it in one-line usingUnix pipes?
+
+---TAGS---
+Shell

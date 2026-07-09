@@ -1,0 +1,4 @@
+Given ann x nbinarygrid, in one step you can choose twoadjacent rowsof the grid and swap them.A grid is said to bevalidif all the cells above the main diagonal arezeros.Returnthe minimum number of stepsneeded to make the grid valid, or-1if the grid cannot be valid.The main diagonal of a grid is the diagonal that starts at cell(1, 1)and ends at cell(n, n).Example 1:Input:grid = [[0,0,1],[1,1,0],[1,0,0]]Output:3Example 2:Input:grid = [[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0]]Output:-1Explanation:All rows are similar, swaps have no effect on the grid.Example 3:Input:grid = [[1,0,0],[1,1,0],[1,1,1]]Output:0Constraints:n == grid.length== grid[i].length1 <= n <= 200grid[i][j]is either0or1
+
+---TAGS---
+Array, Greedy, Matrix

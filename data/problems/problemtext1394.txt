@@ -1,0 +1,4 @@
+There is ahiddeninteger arrayarrthat consists ofnnon-negative integers.It was encoded into another integer arrayencodedof lengthn - 1, such thatencoded[i] = arr[i] XOR arr[i + 1]. For example, ifarr = [1,0,2,1], thenencoded = [1,2,3].You are given theencodedarray. You are also given an integerfirst, that is the first element ofarr, i.e.arr[0].Returnthe original arrayarr. It can be proved that the answer exists and is unique.Example 1:Input:encoded = [1,2,3], first = 1Output:[1,0,2,1]Explanation:If arr = [1,0,2,1], then first = 1 and encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]Example 2:Input:encoded = [6,2,7,3], first = 4Output:[4,2,0,7,4]Constraints:2 <= n <= 104encoded.length == n - 10 <= encoded[i] <= 1050 <= first <= 105
+
+---TAGS---
+Array, Bit Manipulation

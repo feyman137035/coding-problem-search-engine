@@ -1,0 +1,4 @@
+You are given a stringsformed by digits and'#'. We want to mapsto English lowercase characters as follows:Characters ('a'to'i') are represented by ('1'to'9') respectively.Characters ('j'to'z') are represented by ('10#'to'26#') respectively.Returnthe string formed after mapping.The test cases are generated so that a unique mapping will always exist.Example 1:Input:s = "10#11#12"Output:"jkab"Explanation:"j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".Example 2:Input:s = "1326#"Output:"acz"Constraints:1 <= s.length <= 1000sconsists of digits and the'#'letter.swill be a valid string such that mapping is always possible.
+
+---TAGS---
+String

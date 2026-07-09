@@ -1,0 +1,4 @@
+Given acircular integer arraynumsof lengthn, returnthe maximum possible sum of a non-emptysubarrayofnums.Acircular arraymeans the end of the array connects to the beginning of the array. Formally, the next element ofnums[i]isnums[(i + 1) % n]and the previous element ofnums[i]isnums[(i - 1 + n) % n].Asubarraymay only include each element of the fixed buffernumsat most once. Formally, for a subarraynums[i], nums[i + 1], ..., nums[j], there does not existi <= k1,k2 <= jwithk1 % n == k2 % n.Example 1:Input:nums = [1,-2,3,-2]Output:3Explanation:Subarray [3] has maximum sum 3.Example 2:Input:nums = [5,-3,5]Output:10Explanation:Subarray [5,5] has maximum sum 5 + 5 = 10.Example 3:Input:nums = [-3,-2,-3]Output:-2Explanation:Subarray [-2] has maximum sum -2.Constraints:n == nums.length1 <= n <= 3 * 104-3 * 104<= nums[i] <= 3 * 104
+
+---TAGS---
+Array, Divide and Conquer, Dynamic Programming, Queue, Monotonic Queue

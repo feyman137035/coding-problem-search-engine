@@ -1,0 +1,4 @@
+Given a stringdaterepresenting aGregorian calendardate formatted asYYYY-MM-DD, returnthe day number of the year.Example 1:Input:date = "2019-01-09"Output:9Explanation:Given date is the 9th day of the year in 2019.Example 2:Input:date = "2019-02-10"Output:41Constraints:date.length == 10date[4] == date[7] == '-', and all otherdate[i]'s are digitsdaterepresents a calendar date between Jan 1st, 1900 and Dec 31st, 2019.
+
+---TAGS---
+Math, String

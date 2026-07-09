@@ -1,0 +1,4 @@
+You are given ann x nbinary matrixgridwhere1represents land and0represents water.Anislandis a 4-directionally connected group of1's not connected to any other1's. There areexactly two islandsingrid.You may change0's to1's to connect the two islands to formone island.Returnthe smallest number of0's you must flip to connect the two islands.Example 1:Input:grid = [[0,1],[1,0]]Output:1Example 2:Input:grid = [[0,1,0],[0,0,0],[0,0,1]]Output:2Example 3:Input:grid = [[1,1,1,1,1],[1,0,0,0,1],[1,0,1,0,1],[1,0,0,0,1],[1,1,1,1,1]]Output:1Constraints:n == grid.length == grid[i].length2 <= n <= 100grid[i][j]is either0or1.There are exactly two islands ingrid.
+
+---TAGS---
+Array, Depth-First Search, Breadth-First Search, Matrix

@@ -1,0 +1,4 @@
+Given a stringsand an integerk, returntrueif you can use all the characters insto constructnon-emptykpalindrome stringsorfalseotherwise.Example 1:Input:s = "annabelle", k = 2Output:trueExplanation:You can construct two palindromes using all characters in s.Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"Example 2:Input:s = "leetcode", k = 3Output:falseExplanation:It is impossible to construct 3 palindromes using all the characters of s.Example 3:Input:s = "true", k = 4Output:trueExplanation:The only possible solution is to put each character in a separate string.Constraints:1 <= s.length <= 105sconsists of lowercase English letters.1 <= k <= 105
+
+---TAGS---
+Hash Table, String, Greedy, Counting

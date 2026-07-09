@@ -1,0 +1,4 @@
+You are given three integersn,mandk. Consider the following algorithm to find the maximum element of an array of positive integers:You should build the array arr which has the following properties:arrhas exactlynintegers.1 <= arr[i] <= mwhere(0 <= i < n).After applying the mentioned algorithm toarr, the valuesearch_costis equal tok.Returnthe number of waysto build the arrayarrunder the mentioned conditions. As the answer may grow large, the answermust becomputed modulo109+ 7.Example 1:Input:n = 2, m = 3, k = 1Output:6Explanation:The possible arrays are [1, 1], [2, 1], [2, 2], [3, 1], [3, 2] [3, 3]Example 2:Input:n = 5, m = 2, k = 3Output:0Explanation:There are no possible arrays that satisfy the mentioned conditions.Example 3:Input:n = 9, m = 1, k = 1Output:1Explanation:The only possible array is [1, 1, 1, 1, 1, 1, 1, 1, 1]Constraints:1 <= n <= 501 <= m <= 1000 <= k <= n
+
+---TAGS---
+Dynamic Programming, Prefix Sum

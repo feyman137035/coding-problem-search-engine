@@ -1,0 +1,4 @@
+Given a text filefile.txt, print just the 10th line of the file.Example:Assume thatfile.txthas the following content:Line 1Line 2Line 3Line 4Line 5Line 6Line 7Line 8Line 9Line 10Your script should output the tenth line, which is:Line 10Note:1. If the file contains less than 10 lines, what should you output?2. There's at least three different solutions. Try to explore all possibilities.
+
+---TAGS---
+Shell

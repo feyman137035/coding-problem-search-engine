@@ -1,0 +1,4 @@
+You are given a stringsof lengthnwheres[i]is either:'D'means decreasing, or'I'means increasing.A permutationpermofn + 1integers of all the integers in the range[0, n]is called avalid permutationif for all validi:Ifs[i] == 'D', thenperm[i] > perm[i + 1], andIfs[i] == 'I', thenperm[i] < perm[i + 1].Returnthe number ofvalid permutationsperm. Since the answer may be large, return itmodulo109+ 7.Example 1:Input:s = "DID"Output:5Explanation:The 5 valid permutations of (0, 1, 2, 3) are:(1, 0, 3, 2)(2, 0, 3, 1)(2, 1, 3, 0)(3, 0, 2, 1)(3, 1, 2, 0)Example 2:Input:s = "D"Output:1Constraints:n == s.length1 <= n <= 200s[i]is either'I'or'D'.
+
+---TAGS---
+String, Dynamic Programming, Prefix Sum

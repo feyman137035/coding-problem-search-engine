@@ -1,0 +1,4 @@
+Given two positive integersnandk, the binary stringSnis formed as follows:S1= "0"Si= Si - 1+ "1" + reverse(invert(Si - 1))fori > 1Where+denotes the concatenation operation,reverse(x)returns the reversed stringx, andinvert(x)inverts all the bits inx(0changes to1and1changes to0).For example, the first four strings in the above sequence are:S1= "0"S2= "011"S3= "0111001"S4= "011100110110001"ReturnthekthbitinSn. It is guaranteed thatkis valid for the givenn.Example 1:Input:n = 3, k = 1Output:"0"Explanation:S3is "0111001".The 1stbit is "0".Example 2:Input:n = 4, k = 11Output:"1"Explanation:S4is "011100110110001".The 11thbit is "1".Constraints:1 <= n <= 201 <= k <= 2n- 1
+
+---TAGS---
+String, Recursion, Simulation

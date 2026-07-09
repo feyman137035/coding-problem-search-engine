@@ -1,0 +1,4 @@
+Given the roots of two binary treesrootandsubRoot, returntrueif there is a subtree ofrootwith the same structure and node values ofsubRootandfalseotherwise.A subtree of a binary treetreeis a tree that consists of a node intreeand all of this node's descendants. The treetreecould also be considered as a subtree of itself.Example 1:Input:root = [3,4,5,1,2], subRoot = [4,1,2]Output:trueExample 2:Input:root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]Output:falseConstraints:The number of nodes in theroottree is in the range[1, 2000].The number of nodes in thesubRoottree is in the range[1, 1000].-104<= root.val <= 104-104<= subRoot.val <= 104
+
+---TAGS---
+Tree, Depth-First Search, String Matching, Binary Tree, Hash Function

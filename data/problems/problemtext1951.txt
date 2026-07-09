@@ -1,0 +1,4 @@
+Given two positive integersaandb, returnthe number ofcommonfactors ofaandb.An integerxis acommon factorofaandbifxdivides bothaandb.Example 1:Input:a = 12, b = 6Output:4Explanation:The common factors of 12 and 6 are 1, 2, 3, 6.Example 2:Input:a = 25, b = 30Output:2Explanation:The common factors of 25 and 30 are 1, 5.Constraints:1 <= a, b <= 1000
+
+---TAGS---
+Math, Enumeration, Number Theory

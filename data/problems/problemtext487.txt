@@ -1,0 +1,4 @@
+Given a positive integern, return the number of the integers in the range[0, n]whose binary representationsdo notcontain consecutive ones.Example 1:Input:n = 5Output:5Explanation:Here are the non-negative integers <= 5 with their corresponding binary representations:0 : 01 : 12 : 103 : 114 : 1005 : 101Among them, only integer 3 disobeys the rule (two consecutive ones) and the other 5 satisfy the rule.Example 2:Input:n = 1Output:2Example 3:Input:n = 2Output:3Constraints:1 <= n <= 109
+
+---TAGS---
+Dynamic Programming

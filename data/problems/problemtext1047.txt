@@ -1,0 +1,4 @@
+You are given an array ofeventswhereevents[i] = [startDayi, endDayi]. Every eventistarts atstartDayiand ends atendDayi.You can attend an eventiat any daydwherestartDayi<= d <= endDayi. You can only attend one event at any timed.Returnthe maximum number of events you can attend.Example 1:Input:events = [[1,2],[2,3],[3,4]]Output:3Explanation:You can attend all the three events.One way to attend them all is as shown.Attend the first event on day 1.Attend the second event on day 2.Attend the third event on day 3.Example 2:Input:events= [[1,2],[2,3],[3,4],[1,2]]Output:4Constraints:1 <= events.length <= 105events[i].length == 21 <= startDayi<= endDayi<= 105
+
+---TAGS---
+Array, Greedy, Sorting, Heap (Priority Queue)

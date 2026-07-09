@@ -1,0 +1,4 @@
+The set[1, 2, 3, ..., n]contains a total ofn!unique permutations.By listing and labeling all of the permutations in order, we get the following sequence forn = 3:"123""132""213""231""312""321"Givennandk, return thekthpermutation sequence.Example 1:Input:n = 3, k = 3Output:"213"Example 2:Input:n = 4, k = 9Output:"2314"Example 3:Input:n = 3, k = 1Output:"123"Constraints:1 <= n <= 91 <= k <= n!
+
+---TAGS---
+Math, Recursion

@@ -1,0 +1,4 @@
+Implement a functionsignFunc(x)that returns:1ifxis positive.-1ifxis negative.0ifxis equal to0.You are given an integer arraynums. Letproductbe the product of all values in the arraynums.ReturnsignFunc(product).Example 1:Input:nums = [-1,-2,-3,-4,3,2,1]Output:1Explanation:The product of all values in the array is 144, and signFunc(144) = 1Example 2:Input:nums = [1,5,0,2,-3]Output:0Explanation:The product of all values in the array is 0, and signFunc(0) = 0Example 3:Input:nums = [-1,1,-1,1,-1]Output:-1Explanation:The product of all values in the array is -1, and signFunc(-1) = -1Constraints:1 <= nums.length <= 1000-100 <= nums[i] <= 100
+
+---TAGS---
+Array, Math

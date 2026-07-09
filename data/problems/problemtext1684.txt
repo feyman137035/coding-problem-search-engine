@@ -1,0 +1,4 @@
+You are given a0-indexedinteger arraynumsand a target elementtarget.Atarget indexis an indexisuch thatnums[i] == target.Returna list of the target indices ofnumsaftersortingnumsinnon-decreasingorder. If there are no target indices, returnanemptylist. The returned list must be sorted inincreasingorder.Example 1:Input:nums = [1,2,5,2,3], target = 2Output:[1,2]Explanation:After sorting, nums is [1,2,2,3,5].The indices where nums[i] == 2 are 1 and 2.Example 2:Input:nums = [1,2,5,2,3], target = 3Output:[3]Explanation:After sorting, nums is [1,2,2,3,5].The index where nums[i] == 3 is 3.Example 3:Input:nums = [1,2,5,2,3], target = 5Output:[4]Explanation:After sorting, nums is [1,2,2,3,5].The index where nums[i] == 5 is 4.Constraints:1 <= nums.length <= 1001 <= nums[i], target <= 100
+
+---TAGS---
+Array, Binary Search, Sorting

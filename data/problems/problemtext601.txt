@@ -1,0 +1,4 @@
+Design a special dictionary that searches the words in it by a prefix and a suffix.Implement theWordFilterclass:WordFilter(string[] words)Initializes the object with thewordsin the dictionary.f(string pref, string suff)Returnsthe index of the word in the dictionary,which has the prefixprefand the suffixsuff. If there is more than one valid index, returnthe largestof them. If there is no such word in the dictionary, return-1.Example 1:Input["WordFilter", "f"][[["apple"]], ["a", "e"]]Output[null, 0]ExplanationWordFilter wordFilter = new WordFilter(["apple"]);wordFilter.f("a", "e"); // return 0, because the word at index 0 has prefix = "a" and suffix = "e".Constraints:1 <= words.length <= 1041 <= words[i].length <= 71 <= pref.length, suff.length <= 7words[i],prefandsuffconsist of lowercase English letters only.At most104calls will be made to the functionf.
+
+---TAGS---
+Array, Hash Table, String, Design, Trie

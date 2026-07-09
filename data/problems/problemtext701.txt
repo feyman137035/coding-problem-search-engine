@@ -1,0 +1,4 @@
+Given an integern, returna list of all possiblefull binary treeswithnnodes. Each node of each tree in the answer must haveNode.val == 0.Each element of the answer is the root node of one possible tree. You may return the final list of trees inany order.Afull binary treeis a binary tree where each node has exactly0or2children.Example 1:Input:n = 7Output:[[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,null,null,null,null,0,0],[0,0,0,0,0,null,null,0,0]]Example 2:Input:n = 3Output:[[0,0,0]]Constraints:1 <= n <= 20
+
+---TAGS---
+Dynamic Programming, Tree, Recursion, Memoization, Binary Tree

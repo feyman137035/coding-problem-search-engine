@@ -1,0 +1,4 @@
+A magical stringsconsists of only'1'and'2'and obeys the following rule:Concatenating the sequence of lengths of its consecutive groups of identical characters'1'and'2'generates the stringsitself.The first few elements ofsiss = "1221121221221121122……". If we group the consecutive1's and2's ins, it will be"1 22 11 2 1 22 1 22 11 2 11 22 ......"and counting the occurrences of1's or2's in each group yields the sequence"1 2 2 1 1 2 1 2 2 1 2 2 ......".You can see that concatenating the occurrence sequence gives ussitself.Given an integern, return the number of1's in the firstnnumber in the magical strings.Example 1:Input:n = 6Output:3Explanation:The first 6 elements of magical string s is "122112" and it contains three 1's, so return 3.Example 2:Input:n = 1Output:1Constraints:1 <= n <= 105
+
+---TAGS---
+Two Pointers, String

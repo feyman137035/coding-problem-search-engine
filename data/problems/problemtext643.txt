@@ -1,0 +1,4 @@
+Given two stringssandgoal, returntrueif and only ifscan becomegoalafter some number ofshiftsons.Ashiftonsconsists of moving the leftmost character ofsto the rightmost position.For example, ifs = "abcde", then it will be"bcdea"after one shift.Example 1:Input:s = "abcde", goal = "cdeab"Output:trueExample 2:Input:s = "abcde", goal = "abced"Output:falseConstraints:1 <= s.length, goal.length <= 100sandgoalconsist of lowercase English letters.
+
+---TAGS---
+String, String Matching

@@ -1,0 +1,4 @@
+An arraynumsof lengthnisbeautifulif:numsis a permutation of the integers in the range[1, n].For every0 <= i < j < n, there is no indexkwithi < k < jwhere2 * nums[k] == nums[i] + nums[j].Given the integern, returnanybeautifularraynumsof lengthn. There will be at least one valid answer for the givenn.Example 1:Input:n = 4Output:[2,1,4,3]Example 2:Input:n = 5Output:[3,1,2,5,4]Constraints:1 <= n <= 1000
+
+---TAGS---
+Array, Math, Divide and Conquer

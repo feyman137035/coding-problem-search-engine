@@ -1,0 +1,4 @@
+Given an integer n, returnthelargest palindromic integerthat can be represented as the product of twon-digits integers. Since the answer can be very large, return itmodulo1337.Example 1:Input:n = 2Output:987Explanation: 99 x 91 = 9009, 9009 % 1337 = 987Example 2:Input:n = 1Output:9Constraints:1 <= n <= 8
+
+---TAGS---
+Math, Enumeration

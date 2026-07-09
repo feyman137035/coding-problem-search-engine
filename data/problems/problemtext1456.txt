@@ -1,0 +1,4 @@
+Given an alphanumeric strings, returnthesecond largestnumerical digit that appears ins, or-1if it does not exist.Analphanumericstring is a string consisting of lowercase English letters and digits.Example 1:Input:s = "dfa12321afd"Output:2Explanation:The digits that appear in s are [1, 2, 3]. The second largest digit is 2.Example 2:Input:s = "abc1111"Output:-1Explanation:The digits that appear in s are [1]. There is no second largest digit.Constraints:1 <= s.length <= 500sconsists of only lowercase English letters and digits.
+
+---TAGS---
+Hash Table, String

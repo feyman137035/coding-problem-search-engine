@@ -1,0 +1,4 @@
+Given an integer arrayqueriesand apositiveintegerintLength, returnan arrayanswerwhereanswer[i]is either thequeries[i]thsmallestpositive palindromeof lengthintLengthor-1if no such palindrome exists.Apalindromeis a number that reads the same backwards and forwards. Palindromes cannot have leading zeros.Example 1:Input:queries = [1,2,3,4,5,90], intLength = 3Output:[101,111,121,131,141,999]Explanation:The first few palindromes of length 3 are:101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202, ...The 90thpalindrome of length 3 is 999.Example 2:Input:queries = [2,4,6], intLength = 4Output:[1111,1331,1551]Explanation:The first six palindromes of length 4 are:1001, 1111, 1221, 1331, 1441, and 1551.Constraints:1 <= queries.length <= 5 * 1041 <= queries[i] <= 1091 <= intLength <= 15
+
+---TAGS---
+Array, Math

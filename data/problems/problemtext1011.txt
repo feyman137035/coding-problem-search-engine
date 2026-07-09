@@ -1,0 +1,4 @@
+Given am x nmatrixmatand an integerk, returna matrixanswerwhere eachanswer[i][j]is the sum of all elementsmat[r][c]for:i - k <= r <= i + k,j - k <= c <= j + k, and(r, c)is a valid position in the matrix.Example 1:Input:mat = [[1,2,3],[4,5,6],[7,8,9]], k = 1Output:[[12,21,16],[27,45,33],[24,39,28]]Example 2:Input:mat = [[1,2,3],[4,5,6],[7,8,9]], k = 2Output:[[45,45,45],[45,45,45],[45,45,45]]Constraints:m == mat.lengthn == mat[i].length1 <= m, n, k <= 1001 <= mat[i][j] <= 100
+
+---TAGS---
+Array, Matrix, Prefix Sum

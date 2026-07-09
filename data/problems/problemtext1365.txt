@@ -1,0 +1,4 @@
+You are given a stringallowedconsisting ofdistinctcharacters and an array of stringswords. A string isconsistentif all characters in the string appear in the stringallowed.Returnthe number ofconsistentstrings in the arraywords.Example 1:Input:allowed = "ab", words = ["ad","bd","aaab","baa","badab"]Output:2Explanation:Strings "aaab" and "baa" are consistent since they only contain characters 'a' and 'b'.Example 2:Input:allowed = "abc", words = ["a","b","c","ab","ac","bc","abc"]Output:7Explanation:All strings are consistent.Example 3:Input:allowed = "cad", words = ["cc","acd","b","ba","bac","bad","ac","d"]Output:4Explanation:Strings "cc", "acd", "ac", and "d" are consistent.Constraints:1 <= words.length <= 1041 <= allowed.length <=261 <= words[i].length <= 10The characters inallowedaredistinct.words[i]andallowedcontain only lowercase English letters.
+
+---TAGS---
+Array, Hash Table, String, Bit Manipulation, Counting

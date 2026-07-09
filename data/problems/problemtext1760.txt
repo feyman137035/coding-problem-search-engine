@@ -1,0 +1,4 @@
+You are given an array of stringswordsand a stringpref.Returnthe number of strings inwordsthat containprefas aprefix.Aprefixof a stringsis any leading contiguous substring ofs.Example 1:Input:words = ["pay","attention","practice","attend"],pref= "at"Output:2Explanation:The 2 strings that contain "at" as a prefix are: "attention" and "attend".Example 2:Input:words = ["leetcode","win","loops","success"],pref= "code"Output:0Explanation:There are no strings that contain "code" as a prefix.Constraints:1 <= words.length <= 1001 <= words[i].length, pref.length <= 100words[i]andprefconsist of lowercase English letters.
+
+---TAGS---
+Array, String, String Matching

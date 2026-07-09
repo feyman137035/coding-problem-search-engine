@@ -1,0 +1,4 @@
+Given a stringsand an array of stringswords, determine whethersis aprefix stringofwords.A stringsis aprefix stringofwordsifscan be made by concatenating the firstkstrings inwordsfor somepositivekno larger thanwords.length.Returntrueifsis aprefix stringofwords, orfalseotherwise.Example 1:Input:s = "iloveleetcode", words = ["i","love","leetcode","apples"]Output:trueExplanation:s can be made by concatenating "i", "love", and "leetcode" together.Example 2:Input:s = "iloveleetcode", words = ["apples","i","love","leetcode"]Output:falseExplanation:It is impossible to make s using a prefix of arr.Constraints:1 <= words.length <= 1001 <= words[i].length <= 201 <= s.length <= 1000words[i]andsconsist of only lowercase English letters.
+
+---TAGS---
+Array, Two Pointers, String

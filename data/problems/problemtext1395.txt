@@ -1,0 +1,4 @@
+You are given theheadof a linked list, and an integerk.Returnthe head of the linked list afterswappingthe values of thekthnode from the beginning and thekthnode from the end (the list is1-indexed).Example 1:Input:head = [1,2,3,4,5], k = 2Output:[1,4,3,2,5]Example 2:Input:head = [7,9,6,6,7,8,3,0,9,5], k = 5Output:[7,9,6,6,8,7,3,0,9,5]Constraints:The number of nodes in the list isn.1 <= k <= n <= 1050 <= Node.val <= 100
+
+---TAGS---
+Linked List, Two Pointers

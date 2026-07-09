@@ -1,0 +1,4 @@
+Implementpow(x, n), which calculatesxraised to the powern(i.e.,xn).Example 1:Input:x = 2.00000, n = 10Output:1024.00000Example 2:Input:x = 2.10000, n = 3Output:9.26100Example 3:Input:x = 2.00000, n = -2Output:0.25000Explanation:2-2= 1/22= 1/4 = 0.25Constraints:-100.0 < x < 100.0-231<= n <= 231-1nis an integer.Eitherxis not zero orn > 0.-104<= xn<= 104
+
+---TAGS---
+Math, Recursion

@@ -36,10 +36,14 @@ def append_to_file(file_path, text):
         f.write(text + "\n")
 
 
-def save_problem(problem_number, problem_text):
+def save_problem(problem_number, problem_text, tags=None):
     problem_path = os.path.join(PROBLEMS_DIR, f"problemtext{problem_number}.txt")
+    content = clean_text(problem_text)
+    if tags:
+        tags_str = ", ".join(tags)
+        content += f"\n\n---TAGS---\n{tags_str}"
     with open(problem_path, "w", encoding="utf-8") as f:
-        f.write(clean_text(problem_text))
+        f.write(content)
 
 
 def load_checkpoint():

@@ -1,0 +1,4 @@
+Then-queenspuzzle is the problem of placingnqueens on ann x nchessboard such that no two queens attack each other.Given an integern, returnthe number of distinct solutions to then-queens puzzle.Example 1:Input:n = 4Output:2Explanation:There are two distinct solutions to the 4-queens puzzle as shown.Example 2:Input:n = 1Output:1Constraints:1 <= n <= 9
+
+---TAGS---
+Backtracking

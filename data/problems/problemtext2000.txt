@@ -1,0 +1,4 @@
+You are given a 2D integergridof sizem x nand an integerx. In one operation, you canaddxto orsubtractxfrom any element in thegrid.Auni-value gridis a grid where all the elements of it are equal.Returntheminimumnumber of operations to make the griduni-value. If it is not possible, return-1.Example 1:Input:grid = [[2,4],[6,8]], x = 2Output:4Explanation:We can make every element equal to 4 by doing the following: - Add x to 2 once.- Subtract x from 6 once.- Subtract x from 8 twice.A total of 4 operations were used.Example 2:Input:grid = [[1,5],[2,3]], x = 1Output:5Explanation:We can make every element equal to 3.Example 3:Input:grid = [[1,2],[3,4]], x = 2Output:-1Explanation:It is impossible to make every element equal.Constraints:m == grid.lengthn == grid[i].length1 <= m, n <= 1051 <= m * n <= 1051 <= x, grid[i][j] <= 104
+
+---TAGS---
+Array, Math, Sorting, Matrix

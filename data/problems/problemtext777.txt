@@ -1,0 +1,4 @@
+Given three integersx,y, andbound, returna list of all thepowerful integersthat have a value less than or equal tobound.An integer ispowerfulif it can be represented asxi+ yjfor some integersi >= 0andj >= 0.You may return the answer inany order. In your answer, each value should occurat most once.Example 1:Input:x = 2, y = 3, bound = 10Output:[2,3,4,5,7,9,10]Explanation:2 = 20+ 303 = 21+ 304 = 20+ 315 = 21+ 317 = 22+ 319 = 23+ 3010 = 20+ 32Example 2:Input:x = 3, y = 5, bound = 15Output:[2,4,6,8,10,14]Constraints:1 <= x, y <= 1000 <= bound <= 106
+
+---TAGS---
+Hash Table, Math, Enumeration

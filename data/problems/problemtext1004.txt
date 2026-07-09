@@ -1,0 +1,4 @@
+Given an array of non-negative integersarr, you are initially positioned atstartindex of the array. When you are at indexi, you can jump toi + arr[i]ori - arr[i], check if you can reachanyindex with value 0.Notice that you can not jump outside of the array at any time.Example 1:Input:arr = [4,2,3,0,3,1,2], start = 5Output:trueExplanation:All possible ways to reach at index 3 with value 0 are: index 5 -> index 4 -> index 1 -> index 3 index 5 -> index 6 -> index 4 -> index 1 -> index 3Example 2:Input:arr = [4,2,3,0,3,1,2], start = 0Output:trueExplanation:One possible way to reach at index 3 with value 0 is: index 0 -> index 4 -> index 1 -> index 3Example 3:Input:arr = [3,0,2,1,2], start = 2Output:falseExplanation:There is no way to reach at index 1 with value 0.Constraints:1 <= arr.length <= 5 * 1040 <= arr[i] < arr.length0 <= start < arr.length
+
+---TAGS---
+Array, Depth-First Search, Breadth-First Search

@@ -1,0 +1,4 @@
+Given an integern, returnthedecimal valueof the binary string formed by concatenating the binary representations of1tonin order,modulo109+ 7.Example 1:Input:n = 1Output:1Explanation:"1" in binary corresponds to the decimal value 1.Example 2:Input:n = 3Output:27Explanation:In binary, 1, 2, and 3 corresponds to "1", "10", and "11".After concatenating them, we have "11011", which corresponds to the decimal value 27.Example 3:Input:n = 12Output:505379714Explanation: The concatenation results in "1101110010111011110001001101010111100".The decimal value of that is 118505380540.After modulo 109+ 7, the result is 505379714.Constraints:1 <= n <= 105
+
+---TAGS---
+Math, Bit Manipulation, Simulation

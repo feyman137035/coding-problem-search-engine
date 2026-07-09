@@ -1,0 +1,4 @@
+There arenpilesof coins on a table. Each pile consists of apositive numberof coins of assorted denominations.In one move, you can choose any coin ontopof any pile, remove it, and add it to your wallet.Given a listpiles, wherepiles[i]is a list of integers denoting the composition of theithpile fromtop to bottom, and a positive integerk, returnthemaximum total valueof coins you can have in your wallet if you chooseexactlykcoins optimally.Example 1:Input:piles = [[1,100,3],[7,8,9]], k = 2Output:101Explanation:The above diagram shows the different ways we can choose k coins.The maximum total we can obtain is 101.Example 2:Input:piles = [[100],[100],[100],[100],[100],[100],[1,1,1,1,1,1,700]], k = 7Output:706Explanation:The maximum total can be obtained if we choose all coins from the last pile.Constraints:n == piles.length1 <= n <= 10001 <= piles[i][j] <= 1051 <= k <= sum(piles[i].length) <= 2000
+
+---TAGS---
+Array, Dynamic Programming, Prefix Sum

@@ -1,0 +1,4 @@
+You are given an integer array of unique positive integersnums. Consider the following graph:There arenums.lengthnodes, labelednums[0]tonums[nums.length - 1],There is an undirected edge betweennums[i]andnums[j]ifnums[i]andnums[j]share a common factor greater than1.Returnthe size of the largest connected component in the graph.Example 1:Input:nums = [4,6,15,35]Output:4Example 2:Input:nums = [20,50,9,63]Output:2Example 3:Input:nums = [2,3,6,7,4,12,21,39]Output:8Constraints:1 <= nums.length <= 2 * 1041 <= nums[i] <= 105All the values ofnumsareunique.
+
+---TAGS---
+Array, Hash Table, Math, Union-Find, Number Theory

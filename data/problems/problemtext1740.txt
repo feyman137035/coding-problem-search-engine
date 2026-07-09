@@ -1,0 +1,4 @@
+You are given apositiveintegernumconsisting of exactly four digits. Splitnuminto two new integersnew1andnew2by using thedigitsfound innum.Leading zerosare allowed innew1andnew2, andallthe digits found innummust be used.For example, givennum = 2932, you have the following digits: two2's, one9and one3. Some of the possible pairs[new1, new2]are[22, 93],[23, 92],[223, 9]and[2, 329].Returntheminimumpossible sum ofnew1andnew2.Example 1:Input:num = 2932Output:52Explanation:Some possible pairs [new1, new2] are [29, 23], [223, 9], etc.The minimum sum can be obtained by the pair [29, 23]: 29 + 23 = 52.Example 2:Input:num = 4009Output:13Explanation:Some possible pairs [new1, new2] are [0, 49], [490, 0], etc. The minimum sum can be obtained by the pair [4, 9]: 4 + 9 = 13.Constraints:1000 <= num <= 9999
+
+---TAGS---
+Math, Greedy, Sorting

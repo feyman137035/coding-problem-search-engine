@@ -1,0 +1,4 @@
+Given therootof a binary search tree and an integerk, returntrueif there exist two elements in the BST such that their sum is equal tok,orfalseotherwise.Example 1:Input:root = [5,3,6,2,4,null,7], k = 9Output:trueExample 2:Input:root = [5,3,6,2,4,null,7], k = 28Output:falseConstraints:The number of nodes in the tree is in the range[1, 104].-104<= Node.val <= 104rootis guaranteed to be avalidbinary search tree.-105<= k <= 105
+
+---TAGS---
+Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree

@@ -1,0 +1,4 @@
+Given an integer arrayarrand an integerk, modify the array by repeating itktimes.For example, ifarr = [1, 2]andk = 3then the modified array will be[1, 2, 1, 2, 1, 2].Return the maximum sub-array sum in the modified array. Note that the length of the sub-array can be0and its sum in that case is0.As the answer can be very large, return the answermodulo109+ 7.Example 1:Input:arr = [1,2], k = 3Output:9Example 2:Input:arr = [1,-2,1], k = 5Output:2Example 3:Input:arr = [-1,-2], k = 7Output:0Constraints:1 <= arr.length <= 1051 <= k <= 105-104<= arr[i] <= 104
+
+---TAGS---
+Array, Dynamic Programming

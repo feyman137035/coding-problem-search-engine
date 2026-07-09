@@ -1,0 +1,4 @@
+You are given theheadof a linked list containing unique integer values and an integer arraynumsthat is a subset of the linked list values.Return the number ofconnectedcomponentsinnums. A connected component is a non-empty, maximal sequence ofconsecutivenodes in the linked list such that every node's value belongs to nums.Example 1:Input:head = [0,1,2,3], nums = [0,1,3]Output:2Explanation:0 and 1 are connected, so [0, 1] and [3] are the two connected components.Example 2:Input:head = [0,1,2,3,4], nums = [0,3,1,4]Output:2Explanation:0 and 1 are connected, 3 and 4 are connected, so [0, 1] and [3, 4] are the two connected components.Constraints:The number of nodes in the linked list isn.1 <= n <= 1040 <= Node.val < nAll the valuesNode.valareunique.1 <= nums.length <= n0 <= nums[i] < nAll the values ofnumsareunique.
+
+---TAGS---
+Array, Hash Table, Linked List

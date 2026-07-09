@@ -1,0 +1,4 @@
+You are given an array of integersnums. You are also given an integeroriginalwhich is the first number that needs to be searched for innums.You then do the following steps:Iforiginalis found innums,multiplyit by two (i.e., setoriginal = 2 * original).Otherwise,stopthe process.Repeatthis process with the new number as long as you keep finding the number.Returnthefinalvalue oforiginal.Example 1:Input:nums = [5,3,6,1,12], original = 3Output:24Explanation:- 3 is found in nums. 3 is multiplied by 2 to obtain 6.- 6 is found in nums. 6 is multiplied by 2 to obtain 12.- 12 is found in nums. 12 is multiplied by 2 to obtain 24.- 24 is not found in nums. Thus, 24 is returned.Example 2:Input:nums = [2,7,9], original = 4Output:4Explanation:- 4 is not found in nums. Thus, 4 is returned.Constraints:1 <= nums.length <= 10001 <= nums[i], original <= 1000
+
+---TAGS---
+Array, Hash Table, Sorting, Simulation

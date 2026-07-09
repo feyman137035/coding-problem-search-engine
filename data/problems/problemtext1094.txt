@@ -1,0 +1,4 @@
+A stringsis calledhappyif it satisfies the following conditions:sonly contains the letters'a','b', and'c'.sdoes not contain any of"aaa","bbb", or"ccc"as a substring.scontainsat mostaoccurrences of the letter'a'.scontainsat mostboccurrences of the letter'b'.scontainsat mostcoccurrences of the letter'c'.Given three integersa,b, andc, returnthelongest possible happystring. If there are multiple longest happy strings, returnany of them. If there is no such string, returnthe empty string"".Asubstringis a contiguous sequence of characters within a string.Example 1:Input:a = 1, b = 1, c = 7Output:"ccaccbcc"Explanation:"ccbccacc" would also be a correct answer.Example 2:Input:a = 7, b = 1, c = 0Output:"aabaa"Explanation:It is the only correct answer in this case.Constraints:0 <= a, b, c <= 100a + b + c > 0
+
+---TAGS---
+String, Greedy, Heap (Priority Queue)

@@ -1,0 +1,4 @@
+In a garden represented as an infinite 2D grid, there is an apple tree planted ateveryinteger coordinate. The apple tree planted at an integer coordinate(i, j)has|i| + |j|apples growing on it.You will buy an axis-alignedsquare plotof land that is centered at(0, 0).Given an integerneededApples, returntheminimum perimeterof a plot such thatat leastneededApplesapples areinside or onthe perimeter of that plot.The value of|x|is defined as:xifx >= 0-xifx < 0Example 1:Input:neededApples = 1Output:8Explanation:A square plot of side length 1 does not contain any apples.However, a square plot of side length 2 has 12 apples inside (as depicted in the image above).The perimeter is 2 * 4 = 8.Example 2:Input:neededApples = 13Output:16Example 3:Input:neededApples = 1000000000Output:5040Constraints:1 <= neededApples <= 1015
+
+---TAGS---
+Math, Binary Search

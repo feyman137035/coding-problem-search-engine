@@ -1,0 +1,4 @@
+You are given two integersmandn. Consider anm x ngrid where each cell is initially white. You can paint each cellred,green, orblue. All cellsmustbe painted.Returnthe number of ways to color the grid withno two adjacent cells having the same color. Since the answer can be very large, return itmodulo109+ 7.Example 1:Input:m = 1, n = 1Output:3Explanation:The three possible colorings are shown in the image above.Example 2:Input:m = 1, n = 2Output:6Explanation:The six possible colorings are shown in the image above.Example 3:Input:m = 5, n = 5Output:580986Constraints:1 <= m <= 51 <= n <= 1000
+
+---TAGS---
+Dynamic Programming

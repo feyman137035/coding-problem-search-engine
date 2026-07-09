@@ -1,0 +1,4 @@
+Ann x ngrid is composed of1 x 1squares where each1 x 1square consists of a'/','\', or blank space' '. These characters divide the square into contiguous regions.Given the gridgridrepresented as a string array, returnthe number of regions.Note that backslash characters are escaped, so a'\'is represented as'\\'.Example 1:Input:grid = [" /","/ "]Output:2Example 2:Input:grid = [" /","  "]Output:1Example 3:Input:grid = ["/\\","\\/"]Output:5Explanation:Recall that because \ characters are escaped, "\\/" refers to \/, and "/\\" refers to /\.Constraints:n == grid.length == grid[i].length1 <= n <= 30grid[i][j]is either'/','\', or' '.
+
+---TAGS---
+Array, Hash Table, Depth-First Search, Breadth-First Search, Union-Find, Matrix

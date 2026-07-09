@@ -1,0 +1,4 @@
+Asquare triple(a,b,c)is a triple wherea,b, andcareintegersanda2+ b2= c2.Given an integern, returnthe number ofsquare triplessuch that1 <= a, b, c <= n.Example 1:Input:n = 5Output:2Explanation: The square triples are (3,4,5) and (4,3,5).Example 2:Input:n = 10Output:4Explanation: The square triples are (3,4,5), (4,3,5), (6,8,10), and (8,6,10).Constraints:1 <= n <= 250
+
+---TAGS---
+Math, Enumeration

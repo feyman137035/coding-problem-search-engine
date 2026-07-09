@@ -1,0 +1,4 @@
+Given a strings, determine if it isvalid.A stringsisvalidif, starting with an empty stringt = "", you cantransformtintosafter performing the following operationany number of times:Insert string"abc"into any position int. More formally,tbecomestleft+ "abc" + tright, wheret == tleft+ tright. Note thattleftandtrightmay beempty.Returntrueifsis avalidstring, otherwise, returnfalse.Example 1:Input:s = "aabcbc"Output:trueExplanation:"" -> "abc" -> "aabcbc"Thus, "aabcbc" is valid.Example 2:Input:s = "abcabcababcc"Output:trueExplanation:"" -> "abc" -> "abcabc" -> "abcabcabc" -> "abcabcababcc"Thus, "abcabcababcc" is valid.Example 3:Input:s = "abccba"Output:falseExplanation:It is impossible to get "abccba" using the operation.Constraints:1 <= s.length <= 2 * 104sconsists of letters'a','b', and'c'
+
+---TAGS---
+String, Stack

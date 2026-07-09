@@ -1,0 +1,4 @@
+Given theheadof a linked list, rotate the list to the right bykplaces.Example 1:Input:head = [1,2,3,4,5], k = 2Output:[4,5,1,2,3]Example 2:Input:head = [0,1,2], k = 4Output:[2,0,1]Constraints:The number of nodes in the list is in the range[0, 500].-100 <= Node.val <= 1000 <= k <= 2 * 109
+
+---TAGS---
+Linked List, Two Pointers

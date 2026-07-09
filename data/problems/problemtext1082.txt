@@ -1,0 +1,4 @@
+A string is called ahappy prefixif is anon-emptyprefix which is also a suffix (excluding itself).Given a strings, returnthelongest happy prefixofs. Return an empty string""if no such prefix exists.Example 1:Input:s = "level"Output:"l"Explanation:s contains 4 prefix excluding itself ("l", "le", "lev", "leve"), and suffix ("l", "el", "vel", "evel"). The largest prefix which is also suffix is given by "l".Example 2:Input:s = "ababab"Output:"abab"Explanation:"abab" is the largest prefix which is also suffix. They can overlap in the original string.Constraints:1 <= s.length <= 105scontains only lowercase English letters.
+
+---TAGS---
+String, Rolling Hash, String Matching, Hash Function

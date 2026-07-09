@@ -1,0 +1,4 @@
+Given two integersnumandk, consider a set of positive integers with the following properties:The units digit of each integer isk.The sum of the integers isnum.Returntheminimumpossible size of such a set, or-1if no such set exists.Note:The set can contain multiple instances of the same integer, and the sum of an empty set is considered0.Theunits digitof a number is the rightmost digit of the number.Example 1:Input:num = 58, k = 9Output:2Explanation:One valid set is [9,49], as the sum is 58 and each integer has a units digit of 9.Another valid set is [19,39].It can be shown that 2 is the minimum possible size of a valid set.Example 2:Input:num = 37, k = 2Output:-1Explanation:It is not possible to obtain a sum of 37 using only integers that have a units digit of 2.Example 3:Input:num = 0, k = 7Output:0Explanation:The sum of an empty set is considered 0.Constraints:0 <= num <= 30000 <= k <= 9
+
+---TAGS---
+Math, Dynamic Programming, Greedy, Enumeration

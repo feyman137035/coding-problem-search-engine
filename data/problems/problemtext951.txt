@@ -1,0 +1,4 @@
+You are given a stringsand an integerk, akduplicate removalconsists of choosingkadjacent and equal letters fromsand removing them, causing the left and the right side of the deleted substring to concatenate together.We repeatedly makekduplicate removalsonsuntil we no longer can.Returnthe final string after all such duplicate removals have been made. It is guaranteed that the answer isunique.Example 1:Input:s = "abcd", k = 2Output:"abcd"Explanation:There's nothing to delete.Example 2:Input:s = "deeedbbcccbdaa", k = 3Output:"aa"Explanation:First delete "eee" and "ccc", get "ddbbbdaa"Then delete "bbb", get "dddaa"Finally delete "ddd", get "aa"Example 3:Input:s = "pbbcggttciiippooaais", k = 2Output:"ps"Constraints:1 <= s.length <= 1052 <= k <= 104sonly contains lowercase English letters.
+
+---TAGS---
+String, Stack

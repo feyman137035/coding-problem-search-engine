@@ -1,0 +1,4 @@
+Given an integer arraynums, handle multiple queries of the following type:Calculate thesumof the elements ofnumsbetween indicesleftandrightinclusivewhereleft <= right.Implement theNumArrayclass:NumArray(int[] nums)Initializes the object with the integer arraynums.int sumRange(int left, int right)Returns thesumof the elements ofnumsbetween indicesleftandrightinclusive(i.e.nums[left] + nums[left + 1] + ... + nums[right]).Example 1:Input["NumArray", "sumRange", "sumRange", "sumRange"][[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]Output[null, 1, -1, -3]ExplanationNumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);numArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3Constraints:1 <= nums.length <= 104-105<= nums[i] <= 1050 <= left <= right < nums.lengthAt most104calls will be made tosumRange.
+
+---TAGS---
+Array, Design, Prefix Sum

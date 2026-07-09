@@ -1,0 +1,4 @@
+A digit string isgoodif the digits(0-indexed)atevenindices areevenand the digits atoddindices areprime(2,3,5, or7).For example,"2582"is good because the digits (2and8) at even positions are even and the digits (5and2) at odd positions are prime. However,"3245"isnotgood because3is at an even index but is not even.Given an integern, returnthetotalnumber of good digit strings of lengthn. Since the answer may be large,return it modulo109+ 7.Adigit stringis a string consisting of digits0through9that may contain leading zeros.Example 1:Input:n = 1Output:5Explanation:The good numbers of length 1 are "0", "2", "4", "6", "8".Example 2:Input:n = 4Output:400Example 3:Input:n = 50Output:564908303Constraints:1 <= n <= 1015
+
+---TAGS---
+Math, Recursion

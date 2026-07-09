@@ -1,0 +1,4 @@
+Write an algorithm to determine if a numbernis happy.Ahappy numberis a number defined by the following process:Starting with any positive integer, replace the number by the sum of the squares of its digits.Repeat the process until the number equals 1 (where it will stay), or itloops endlessly in a cyclewhich does not include 1.Those numbers for which this processends in 1are happy.Returntrueifnis a happy number, andfalseif not.Example 1:Input:n = 19Output:trueExplanation:12+ 92= 8282+ 22= 6862+ 82= 10012+ 02+ 02= 1Example 2:Input:n = 2Output:falseConstraints:1 <= n <= 231- 1
+
+---TAGS---
+Hash Table, Math, Two Pointers

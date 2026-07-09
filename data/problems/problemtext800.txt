@@ -1,0 +1,4 @@
+Given therootof a binary tree with unique values and the values of two different nodes of the treexandy, returntrueif the nodes corresponding to the valuesxandyin the tree arecousins, orfalseotherwise.Two nodes of a binary tree arecousinsif they have the same depth with different parents.Note that in a binary tree, the root node is at the depth0, and children of each depthknode are at the depthk + 1.Example 1:Input:root = [1,2,3,4], x = 4, y = 3Output:falseExample 2:Input:root = [1,2,3,null,4,null,5], x = 5, y = 4Output:trueExample 3:Input:root = [1,2,3,null,4], x = 2, y = 3Output:falseConstraints:The number of nodes in the tree is in the range[2, 100].1 <= Node.val <= 100Each node has auniquevalue.x != yxandyare exist in the tree.
+
+---TAGS---
+Tree, Depth-First Search, Breadth-First Search, Binary Tree

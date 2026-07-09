@@ -1,0 +1,4 @@
+Given an array of stringwords, return all strings inwordsthat are asubstringof another word. You can return the answer inany order.Example 1:Input:words = ["mass","as","hero","superhero"]Output:["as","hero"]Explanation:"as" is substring of "mass" and "hero" is substring of "superhero".["hero","as"] is also a valid answer.Example 2:Input:words = ["leetcode","et","code"]Output:["et","code"]Explanation:"et", "code" are substring of "leetcode".Example 3:Input:words = ["blue","green","bu"]Output:[]Explanation:No string of words is substring of another string.Constraints:1 <= words.length <= 1001 <= words[i].length <= 30words[i]contains only lowercase English letters.All the strings ofwordsareunique.
+
+---TAGS---
+Array, String, String Matching

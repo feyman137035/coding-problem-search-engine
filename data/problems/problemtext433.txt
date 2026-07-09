@@ -1,0 +1,4 @@
+Given a stringsand a string arraydictionary, returnthe longest string in the dictionary that can be formed by deleting some of the given string characters. If there is more than one possible result, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.Example 1:Input:s = "abpcplea", dictionary = ["ale","apple","monkey","plea"]Output:"apple"Example 2:Input:s = "abpcplea", dictionary = ["a","b","c"]Output:"a"Constraints:1 <= s.length <= 10001 <= dictionary.length <= 10001 <= dictionary[i].length <= 1000sanddictionary[i]consist of lowercase English letters.
+
+---TAGS---
+Array, Two Pointers, String, Sorting

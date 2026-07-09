@@ -1,0 +1,4 @@
+Given a strings. In one step you can insert any character at any index of the string.Returnthe minimum number of stepsto makespalindrome.APalindrome Stringis one that reads the same backward as well as forward.Example 1:Input:s = "zzazz"Output:0Explanation:The string "zzazz" is already palindrome we do not need any insertions.Example 2:Input:s = "mbadm"Output:2Explanation:String can be "mbdadbm" or "mdbabdm".Example 3:Input:s = "leetcode"Output:5Explanation:Inserting 5 characters the string becomes "leetcodocteel".Constraints:1 <= s.length <= 500sconsists of lowercase English letters.
+
+---TAGS---
+String, Dynamic Programming

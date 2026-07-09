@@ -1,0 +1,4 @@
+You are given an integernum. You will apply the following steps tonumtwoseparate times:Pick a digitx (0 <= x <= 9).Pick another digity (0 <= y <= 9). Noteycan be equal tox.Replace all the occurrences ofxin the decimal representation ofnumbyy.Letaandbbe the two results from applying the operation tonumindependently.Returnthe max differencebetweenaandb.Note that neitheranorbmay have any leading zeros, andmust notbe 0.Example 1:Input:num = 555Output:888Explanation:The first time pick x = 5 and y = 9 and store the new integer in a.The second time pick x = 5 and y = 1 and store the new integer in b.We have now a = 999 and b = 111 and max difference = 888Example 2:Input:num = 9Output:8Explanation:The first time pick x = 9 and y = 9 and store the new integer in a.The second time pick x = 9 and y = 1 and store the new integer in b.We have now a = 9 and b = 1 and max difference = 8Constraints:1 <= num <= 108
+
+---TAGS---
+Math, Greedy

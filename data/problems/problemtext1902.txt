@@ -1,0 +1,4 @@
+You are given a0-indexedinteger arraynums. In one operation you can replace any element of the array withany twoelements thatsumto it.For example, considernums = [5,6,7]. In one operation, we can replacenums[1]with2and4and convertnumsto[5,2,4,7].Returnthe minimum number of operations to make an array that is sorted innon-decreasingorder.Example 1:Input:nums = [3,9,3]Output:2Explanation:Here are the steps to sort the array in non-decreasing order:- From [3,9,3], replace the 9 with 3 and 6 so the array becomes [3,3,6,3]- From [3,3,6,3], replace the 6 with 3 and 3 so the array becomes [3,3,3,3,3]There are 2 steps to sort the array in non-decreasing order. Therefore, we return 2.Example 2:Input:nums = [1,2,3,4,5]Output:0Explanation:The array is already in non-decreasing order. Therefore, we return 0.Constraints:1 <= nums.length <= 1051 <= nums[i] <= 109
+
+---TAGS---
+Array, Math, Greedy

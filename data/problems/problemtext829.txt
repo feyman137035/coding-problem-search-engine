@@ -1,0 +1,4 @@
+You are given therootof a binary tree where each node has a value0or1. Each root-to-leaf path represents a binary number starting with the most significant bit.For example, if the path is0 -> 1 -> 1 -> 0 -> 1, then this could represent01101in binary, which is13.For all leaves in the tree, consider the numbers represented by the path from the root to that leaf. Returnthe sum of these numbers.The test cases are generated so that the answer fits in a32-bitsinteger.Example 1:Input:root = [1,0,1,0,1,0,1]Output:22Explanation:(100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22Example 2:Input:root = [0]Output:0Constraints:The number of nodes in the tree is in the range[1, 1000].Node.valis0or1.
+
+---TAGS---
+Tree, Depth-First Search, Binary Tree

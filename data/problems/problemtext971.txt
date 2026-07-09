@@ -1,0 +1,4 @@
+Given a rectangle of sizenxm, returnthe minimum number of integer-sided squares that tile the rectangle.Example 1:Input:n = 2, m = 3Output:3Explanation:3squares are necessary to cover the rectangle.2(squares of1x1)1(square of2x2)Example 2:Input:n = 5, m = 8Output:5Example 3:Input:n = 11, m = 13Output:6Constraints:1 <= n, m <= 13
+
+---TAGS---
+Backtracking

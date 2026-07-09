@@ -1,0 +1,4 @@
+Given a stringsand an integerk, reverse the firstkcharacters for every2kcharacters counting from the start of the string.If there are fewer thankcharacters left, reverse all of them. If there are less than2kbut greater than or equal tokcharacters, then reverse the firstkcharacters and leave the other as original.Example 1:Input:s = "abcdefg", k = 2Output:"bacdfeg"Example 2:Input:s = "abcd", k = 2Output:"bacd"Constraints:1 <= s.length <= 104sconsists of only lowercase English letters.1 <= k <= 104
+
+---TAGS---
+Two Pointers, String

@@ -1,0 +1,4 @@
+You are given an arraynumsconsisting of non-negative integers. You are also given aqueriesarray, wherequeries[i] = [xi, mi].The answer to theithquery is the maximum bitwiseXORvalue ofxiand any element ofnumsthat does not exceedmi. In other words, the answer ismax(nums[j] XOR xi)for alljsuch thatnums[j] <= mi. If all elements innumsare larger thanmi, then the answer is-1.Returnan integer arrayanswerwhereanswer.length == queries.lengthandanswer[i]is the answer to theithquery.Example 1:Input:nums = [0,1,2,3,4], queries = [[3,1],[1,3],[5,6]]Output:[3,3,7]Explanation:1) 0 and 1 are the only two integers not greater than 1. 0 XOR 3 = 3 and 1 XOR 3 = 2. The larger of the two is 3.2) 1 XOR 2 = 3.3) 5 XOR 2 = 7.Example 2:Input:nums = [5,2,4,6,6,3], queries = [[12,4],[8,1],[6,3]]Output:[15,-1,5]Constraints:1 <= nums.length, queries.length <= 105queries[i].length == 20 <= nums[j], xi, mi<= 109
+
+---TAGS---
+Array, Bit Manipulation, Trie

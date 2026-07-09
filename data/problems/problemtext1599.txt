@@ -1,0 +1,4 @@
+You wrote down manypositiveintegers in a string callednum. However, you realized that you forgot to add commas to seperate the different numbers. You remember that the list of integers wasnon-decreasingand thatnointeger had leading zeros.Returnthenumber of possible lists of integersthat you could have written down to get the stringnum. Since the answer may be large, return itmodulo109+ 7.Example 1:Input:num = "327"Output:2Explanation:You could have written down the numbers:3, 27327Example 2:Input:num = "094"Output:0Explanation:No numbers can have leading zeros and all numbers must be positive.Example 3:Input:num = "0"Output:0Explanation:No numbers can have leading zeros and all numbers must be positive.Constraints:1 <= num.length <= 3500numconsists of digits'0'through'9'.
+
+---TAGS---
+String, Dynamic Programming, Prefix Sum

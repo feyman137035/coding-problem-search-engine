@@ -1,0 +1,4 @@
+Given a 2Dgridof0s and1s, return the number of elements in the largestsquaresubgrid that has all1s on itsborder, or0if such a subgrid doesn't exist in thegrid.Example 1:Input:grid = [[1,1,1],[1,0,1],[1,1,1]]Output:9Example 2:Input:grid = [[1,1,0,0]]Output:1Constraints:1 <= grid.length <= 1001 <= grid[0].length <= 100grid[i][j]is0or1
+
+---TAGS---
+Array, Dynamic Programming, Matrix

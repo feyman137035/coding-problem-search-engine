@@ -1,0 +1,4 @@
+You are given an integer arraynumsand apositiveintegerk. You can choose anysubsequenceof the array and sum all of its elements together.We define theK-Sumof the array as thekthlargestsubsequence sum that can be obtained (notnecessarily distinct).Returnthe K-Sum of the array.Asubsequenceis an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.Notethat the empty subsequence is considered to have a sum of0.Example 1:Input:nums = [2,4,-2], k = 5Output:2Explanation:All the possible subsequence sums that we can obtain are the following sorted in decreasing order:6, 4, 4, 2,2, 0, 0, -2.The 5-Sum of the array is 2.Example 2:Input:nums = [1,-2,3,4,-10,12], k = 16Output:10Explanation:The 16-Sum of the array is 10.Constraints:n == nums.length1 <= n <= 105-109<= nums[i] <= 1091 <= k <= min(2000, 2n)
+
+---TAGS---
+Array, Sorting, Heap (Priority Queue)

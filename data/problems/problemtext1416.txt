@@ -1,0 +1,4 @@
+Given a strings, returntrueif it is possible to split the stringsinto threenon-emptypalindromic substrings. Otherwise, returnfalse.​​​​​A string is said to be palindrome if it the same string when reversed.Example 1:Input:s = "abcbdd"Output:trueExplanation:"abcbdd" = "a" + "bcb" + "dd", and all three substrings are palindromes.Example 2:Input:s = "bcbddxy"Output:falseExplanation:s cannot be split into 3 palindromes.Constraints:3 <= s.length <= 2000s​​​​​​ consists only of lowercase English letters.
+
+---TAGS---
+String, Dynamic Programming

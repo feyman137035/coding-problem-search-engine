@@ -1,0 +1,4 @@
+Given therootof a binary tree, returnthe sum of all left leaves.Aleafis a node with no children. Aleft leafis a leaf that is the left child of another node.Example 1:Input:root = [3,9,20,null,null,15,7]Output:24Explanation:There are two left leaves in the binary tree, with values 9 and 15 respectively.Example 2:Input:root = [1]Output:0Constraints:The number of nodes in the tree is in the range[1, 1000].-1000 <= Node.val <= 1000
+
+---TAGS---
+Tree, Depth-First Search, Breadth-First Search, Binary Tree

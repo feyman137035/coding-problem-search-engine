@@ -1,0 +1,4 @@
+You are given ann x ngridwhere you have placed some1 x 1 x 1cubes. Each valuev = grid[i][j]represents a tower ofvcubes placed on top of cell(i, j).After placing these cubes, you have decided to glue any directly adjacent cubes to each other, forming several irregular 3D shapes.Returnthe total surface area of the resulting shapes.Note:The bottom face of each shape counts toward its surface area.Example 1:Input:grid = [[1,2],[3,4]]Output:34Example 2:Input:grid = [[1,1,1],[1,0,1],[1,1,1]]Output:32Example 3:Input:grid = [[2,2,2],[2,1,2],[2,2,2]]Output:46Constraints:n == grid.length == grid[i].length1 <= n <= 500 <= grid[i][j] <= 50
+
+---TAGS---
+Array, Math, Geometry, Matrix

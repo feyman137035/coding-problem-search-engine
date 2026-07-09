@@ -1,0 +1,4 @@
+There arenumBottleswater bottles that are initially full of water. You can exchangenumExchangeempty water bottles from the market with one full water bottle.The operation of drinking a full water bottle turns it into an empty bottle.Given the two integersnumBottlesandnumExchange, returnthemaximumnumber of water bottles you can drink.Example 1:Input:numBottles = 9, numExchange = 3Output:13Explanation:You can exchange 3 empty bottles to get 1 full water bottle.Number of water bottles you can drink: 9 + 3 + 1 = 13.Example 2:Input:numBottles = 15, numExchange = 4Output:19Explanation:You can exchange 4 empty bottles to get 1 full water bottle. Number of water bottles you can drink: 15 + 3 + 1 = 19.Constraints:1 <= numBottles <= 1002 <= numExchange <= 100
+
+---TAGS---
+Math, Simulation

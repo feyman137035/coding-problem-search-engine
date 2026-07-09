@@ -1,0 +1,4 @@
+You are given two strings of the same lengthsandt. In one step you can chooseany characteroftand replace it withanother character.Returnthe minimum number of stepsto maketan anagram ofs.AnAnagramof a string is a string that contains the same characters with a different (or the same) ordering.Example 1:Input:s = "bab", t = "aba"Output:1Explanation:Replace the first 'a' in t with b, t = "bba" which is anagram of s.Example 2:Input:s = "leetcode", t = "practice"Output:5Explanation:Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.Example 3:Input:s = "anagram", t = "mangaar"Output:0Explanation:"anagram" and "mangaar" are anagrams.Constraints:1 <= s.length <= 5 * 104s.length == t.lengthsandtconsist of lowercase English letters only.
+
+---TAGS---
+Hash Table, String, Counting

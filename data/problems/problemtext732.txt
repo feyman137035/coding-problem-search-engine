@@ -1,0 +1,4 @@
+Your friend is typing hisnameinto a keyboard. Sometimes, when typing a characterc, the key might getlong pressed, and the character will be typed 1 or more times.You examine thetypedcharacters of the keyboard. ReturnTrueif it is possible that it was your friends name, with some characters (possibly none) being long pressed.Example 1:Input:name = "alex", typed = "aaleex"Output:trueExplanation:'a' and 'e' in 'alex' were long pressed.Example 2:Input:name = "saeed", typed = "ssaaedd"Output:falseExplanation:'e' must have been pressed twice, but it was not in the typed output.Constraints:1 <= name.length, typed.length <= 1000nameandtypedconsist of only lowercase English letters.
+
+---TAGS---
+Two Pointers, String

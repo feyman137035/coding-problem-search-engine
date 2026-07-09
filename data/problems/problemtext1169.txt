@@ -1,0 +1,4 @@
+Given an integer n, returnthe smallestprime palindromegreater than or equal ton.An integer isprimeif it has exactly two divisors:1and itself. Note that1is not a prime number.For example,2,3,5,7,11, and13are all primes.An integer is apalindromeif it reads the same from left to right as it does from right to left.For example,101and12321are palindromes.The test cases are generated so that the answer always exists and is in the range[2, 2 * 108].Example 1:Input:n = 6Output:7Example 2:Input:n = 8Output:11Example 3:Input:n = 13Output:101Constraints:1 <= n <= 108
+
+---TAGS---
+Math, Number Theory

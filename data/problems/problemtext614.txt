@@ -1,0 +1,4 @@
+You are given an integern. You have ann x nbinary gridgridwith all values initially1's except for some indices given in the arraymines. Theithelement of the arrayminesis defined asmines[i] = [xi, yi]wheregrid[xi][yi] == 0.Returnthe order of the largestaxis-alignedplus sign of1's contained ingrid. If there is none, return0.Anaxis-aligned plus signof1's of orderkhas some centergrid[r][c] == 1along with four arms of lengthk - 1going up, down, left, and right, and made of1's. Note that there could be0's or1's beyond the arms of the plus sign, only the relevant area of the plus sign is checked for1's.Example 1:Input:n = 5, mines = [[4,2]]Output:2Explanation:In the above grid, the largest plus sign can only be of order 2. One of them is shown.Example 2:Input:n = 1, mines = [[0,0]]Output:0Explanation:There is no plus sign, so return 0.Constraints:1 <= n <= 5001 <= mines.length <= 50000 <= xi, yi< nAll the pairs(xi, yi)areunique.
+
+---TAGS---
+Array, Dynamic Programming

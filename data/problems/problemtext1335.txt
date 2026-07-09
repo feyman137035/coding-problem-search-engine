@@ -1,0 +1,4 @@
+A stringsis calledgoodif there are no two different characters insthat have the samefrequency.Given a strings, returntheminimumnumber of characters you need to delete to makesgood.Thefrequencyof a character in a string is the number of times it appears in the string. For example, in the string"aab", thefrequencyof'a'is2, while thefrequencyof'b'is1.Example 1:Input:s = "aab"Output:0Explanation:sis already good.Example 2:Input:s = "aaabbbcc"Output:2Explanation:You can delete two 'b's resulting in the good string "aaabcc".Another way it to delete one 'b' and one 'c' resulting in the good string "aaabbc".Example 3:Input:s = "ceabaacb"Output:2Explanation:You can delete both 'c's resulting in the good string "eabaab".Note that we only care about characters that are still in the string at the end (i.e. frequency of 0 is ignored).Constraints:1 <= s.length <= 105scontains only lowercase English letters.
+
+---TAGS---
+Hash Table, String, Greedy, Sorting

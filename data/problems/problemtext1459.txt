@@ -1,0 +1,4 @@
+You are givennums, an array of positive integers of size2 * n. You must performnoperations on this array.In theithoperation(1-indexed), you will:Choose two elements,xandy.Receive a score ofi * gcd(x, y).Removexandyfromnums.Returnthe maximum score you can receive after performingnoperations.The functiongcd(x, y)is the greatest common divisor ofxandy.Example 1:Input:nums = [1,2]Output:1Explanation:The optimal choice of operations is:(1 * gcd(1, 2)) = 1Example 2:Input:nums = [3,4,6,8]Output:11Explanation:The optimal choice of operations is:(1 * gcd(3, 6)) + (2 * gcd(4, 8)) = 3 + 8 = 11Example 3:Input:nums = [1,2,3,4,5,6]Output:14Explanation:The optimal choice of operations is:(1 * gcd(1, 5)) + (2 * gcd(2, 4)) + (3 * gcd(3, 6)) = 1 + 4 + 9 = 14Constraints:1 <= n <= 7nums.length == 2 * n1 <= nums[i] <= 106
+
+---TAGS---
+Array, Math, Dynamic Programming, Backtracking, Bit Manipulation, Number Theory, Bitmask

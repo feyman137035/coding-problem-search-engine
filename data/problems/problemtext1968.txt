@@ -1,0 +1,4 @@
+Given an integer arraynumsand an integerk, returnthe number ofsubarraysofnumswhere the greatest common divisor of the subarray's elements isk.Asubarrayis a contiguous non-empty sequence of elements within an array.Thegreatest common divisor of an arrayis the largest integer that evenly divides all the array elements.Example 1:Input:nums = [9,3,1,2,6,3], k = 3Output:4Explanation:The subarrays of nums where 3 is the greatest common divisor of all the subarray's elements are:- [9,3,1,2,6,3]- [9,3,1,2,6,3]- [9,3,1,2,6,3]- [9,3,1,2,6,3]Example 2:Input:nums = [4], k = 7Output:0Explanation:There are no subarrays of nums where 7 is the greatest common divisor of all the subarray's elements.Constraints:1 <= nums.length <= 10001 <= nums[i], k <= 109
+
+---TAGS---
+Array, Math, Number Theory

@@ -1,0 +1,4 @@
+An integernisstrictly palindromicif, foreverybasebbetween2andn - 2(inclusive), the string representation of the integernin basebispalindromic.Given an integern, returntrueifnisstrictly palindromicandfalseotherwise.A string ispalindromicif it reads the same forward and backward.Example 1:Input:n = 9Output:falseExplanation:In base 2: 9 = 1001 (base 2), which is palindromic.In base 3: 9 = 100 (base 3), which is not palindromic.Therefore, 9 is not strictly palindromic so we return false.Note that in bases 4, 5, 6, and 7, n = 9 is also not palindromic.Example 2:Input:n = 4Output:falseExplanation:We only consider base 2: 4 = 100 (base 2), which is not palindromic.Therefore, we return false.Constraints:4 <= n <= 105
+
+---TAGS---
+Math, Two Pointers, Brainteaser

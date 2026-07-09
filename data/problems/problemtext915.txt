@@ -1,0 +1,4 @@
+You havendice, and each dice haskfaces numbered from1tok.Given three integersn,k, andtarget, returnthe number of possible ways (out of thekntotal ways)to roll the dice, so the sum of the face-up numbers equalstarget. Since the answer may be too large, return itmodulo109+ 7.Example 1:Input:n = 1, k = 6, target = 3Output:1Explanation:You throw one die with 6 faces.There is only one way to get a sum of 3.Example 2:Input:n = 2, k = 6, target = 7Output:6Explanation:You throw two dice, each with 6 faces.There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.Example 3:Input:n = 30, k = 30, target = 500Output:222616187Explanation:The answer must be returned modulo 109+ 7.Constraints:1 <= n, k <= 301 <= target <= 1000
+
+---TAGS---
+Dynamic Programming

@@ -1,0 +1,4 @@
+The Tribonacci sequence Tnis defined as follows:T0= 0, T1= 1, T2= 1, and Tn+3= Tn+ Tn+1+ Tn+2for n >= 0.Givenn, return the value of Tn.Example 1:Input:n = 4Output:4Explanation:T_3 = 0 + 1 + 1 = 2T_4 = 1 + 1 + 2 = 4Example 2:Input:n = 25Output:1389537Constraints:0 <= n <= 37The answer is guaranteed to fit within a 32-bit integer, ie.answer <= 2^31 - 1.
+
+---TAGS---
+Math, Dynamic Programming, Memoization

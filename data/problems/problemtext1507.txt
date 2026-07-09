@@ -1,0 +1,4 @@
+Given an integer arraynums, return the sum offloor(nums[i] / nums[j])for all pairs of indices0 <= i, j < nums.lengthin the array. Since the answer may be too large, return itmodulo109+ 7.Thefloor()function returns the integer part of the division.Example 1:Input:nums = [2,5,9]Output:10Explanation:floor(2 / 5) = floor(2 / 9) = floor(5 / 9) = 0floor(2 / 2) = floor(5 / 5) = floor(9 / 9) = 1floor(5 / 2) = 2floor(9 / 2) = 4floor(9 / 5) = 1We calculate the floor of the division for every pair of indices in the array then sum them up.Example 2:Input:nums = [7,7,7,7,7,7,7]Output:49Constraints:1 <= nums.length <= 1051 <= nums[i] <= 105
+
+---TAGS---
+Array, Math, Binary Search, Counting, Enumeration, Prefix Sum

@@ -1,0 +1,1 @@
+Given theheadof a sorted linked list,delete all duplicates such that each element appears only once. Returnthe linked listsortedas well.Example 1:Input:head = [1,1,2]Output:[1,2]Example 2:Input:head = [1,1,2,3,3]Output:[1,2,3]Constraints:The number of nodes in the list is in the range[0, 300].-100 <= Node.val <= 100The list is guaranteed to besortedin ascending order.

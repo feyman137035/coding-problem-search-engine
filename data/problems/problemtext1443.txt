@@ -1,0 +1,4 @@
+Given an integern, returntrueif it is possible to representnas the sum of distinct powers of three.Otherwise, returnfalse.An integeryis a power of three if there exists an integerxsuch thaty == 3x.Example 1:Input:n = 12Output:trueExplanation:12 = 31+ 32Example 2:Input:n = 91Output:trueExplanation:91 = 30+ 32+ 34Example 3:Input:n = 21Output:falseConstraints:1 <= n <= 107
+
+---TAGS---
+Math

@@ -1,0 +1,4 @@
+Apeakelement in a 2D grid is an element that isstrictly greaterthan all of itsadjacentneighbors to the left, right, top, and bottom.Given a0-indexedm x nmatrixmatwhereno two adjacent cells are equal, findanypeak elementmat[i][j]and returnthe length 2 array[i,j].You may assume that the entire matrix is surrounded by anouter perimeterwith the value-1in each cell.You must write an algorithm that runs inO(m log(n))orO(n log(m))time.Example 1:Input:mat = [[1,4],[3,2]]Output:[0,1]Explanation:Both 3 and 4 are peak elements so [1,0] and [0,1] are both acceptable answers.Example 2:Input:mat = [[10,20,15],[21,30,14],[7,16,32]]Output:[1,1]Explanation:Both 30 and 32 are peak elements so [1,1] and [2,2] are both acceptable answers.Constraints:m == mat.lengthn == mat[i].length1 <= m, n <= 5001 <= mat[i][j] <= 105No two adjacent cells are equal.
+
+---TAGS---
+Array, Binary Search, Matrix

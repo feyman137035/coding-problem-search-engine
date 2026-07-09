@@ -1,0 +1,4 @@
+In a string composed of'L','R', and'X'characters, like"RXXLRXRXL", a move consists of either replacing one occurrence of"XL"with"LX", or replacing one occurrence of"RX"with"XR". Given the starting stringstartand the ending stringresult, returnTrueif and only if there exists a sequence of moves to transformstarttoresult.Example 1:Input:start = "RXXLRXRXL", result = "XRLXXRRLX"Output:trueExplanation:We can transform start to result following these steps:RXXLRXRXL ->XRXLRXRXL ->XRLXRXRXL ->XRLXXRRXL ->XRLXXRRLXExample 2:Input:start = "X", result = "L"Output:falseConstraints:1 <= start.length <= 104start.length == result.lengthBothstartandresultwill only consist of characters in'L','R', and'X'.
+
+---TAGS---
+Two Pointers, String

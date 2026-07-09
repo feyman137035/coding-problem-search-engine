@@ -1,0 +1,4 @@
+You are given a non-negative integer arraynums. In one operation, you must:Choose a positive integerxsuch thatxis less than or equal to thesmallest non-zeroelement innums.Subtractxfrom everypositiveelement innums.Returntheminimumnumber of operations to make every element innumsequal to0.Example 1:Input:nums = [1,5,0,3,5]Output:3Explanation:In the first operation, choose x = 1. Now, nums = [0,4,0,2,4].In the second operation, choose x = 2. Now, nums = [0,2,0,0,2].In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].Example 2:Input:nums = [0]Output:0Explanation:Each element in nums is already 0 so no operations are needed.Constraints:1 <= nums.length <= 1000 <= nums[i] <= 100
+
+---TAGS---
+Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Simulation

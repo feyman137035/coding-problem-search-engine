@@ -1,0 +1,4 @@
+Given a string arraywords, returnan array of all characters that show up in all strings within thewords(including duplicates). You may return the answer inany order.Example 1:Input:words = ["bella","label","roller"]Output:["e","l","l"]Example 2:Input:words = ["cool","lock","cook"]Output:["c","o"]Constraints:1 <= words.length <= 1001 <= words[i].length <= 100words[i]consists of lowercase English letters.
+
+---TAGS---
+Array, Hash Table, String

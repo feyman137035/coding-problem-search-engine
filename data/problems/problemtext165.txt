@@ -1,0 +1,4 @@
+Given an integern, returnthe number of trailing zeroes inn!.Note thatn! = n * (n - 1) * (n - 2) * ... * 3 * 2 * 1.Example 1:Input:n = 3Output:0Explanation:3! = 6, no trailing zero.Example 2:Input:n = 5Output:1Explanation:5! = 120, one trailing zero.Example 3:Input:n = 0Output:0Constraints:0 <= n <= 104Follow up:Could you write a solution that works in logarithmic time complexity?
+
+---TAGS---
+Math

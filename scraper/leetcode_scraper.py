@@ -78,6 +78,9 @@ def fetch_leetcode_problem_content(slug):
     query questionContent($titleSlug: String!) {
         question(titleSlug: $titleSlug) {
             content
+            topicTags {
+                name
+            }
         }
     }
     """
@@ -92,8 +95,13 @@ def fetch_leetcode_problem_content(slug):
             }
         )
         data = response.json()
-        content = data["data"]["question"]["content"]
-        return strip_html_tags(content) if content else ""
+        question = data["data"]["question"]
+        content = question.get("content")
+        tags = [tag["name"] for tag in question.get("topicTags", [])]
+        return {
+            "content": strip_html_tags(content) if content else "",
+            "tags": tags
+        }
     except Exception as e:
         print(f"Error fetching LeetCode problem content for {slug}: {e}")
         return None

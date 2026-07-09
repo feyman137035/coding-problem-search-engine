@@ -1,0 +1,4 @@
+You haventiles, where each tile has one lettertiles[i]printed on it.Returnthe number of possible non-empty sequences of lettersyou can make using the letters printed on thosetiles.Example 1:Input:tiles = "AAB"Output:8Explanation:The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".Example 2:Input:tiles = "AAABBC"Output:188Example 3:Input:tiles = "V"Output:1Constraints:1 <= tiles.length <= 7tilesconsists of uppercase English letters.
+
+---TAGS---
+Hash Table, String, Backtracking, Counting

@@ -1,0 +1,4 @@
+Given a binary strings​​​​​without leading zeros, returntrue​​​ifscontainsat most one contiguous segment of ones. Otherwise, returnfalse.Example 1:Input:s = "1001"Output:falseExplanation:The string has two segments of size 1.Example 2:Input:s = "110"Output:trueConstraints:1 <= s.length <= 100s[i]​​​​ is either'0'or'1'.s[0]is'1'.
+
+---TAGS---
+String

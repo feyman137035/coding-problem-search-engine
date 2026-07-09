@@ -1,0 +1,4 @@
+There is a special square room with mirrors on each of the four walls. Except for the southwest corner, there are receptors on each of the remaining corners, numbered0,1, and2.The square room has walls of lengthpand a laser ray from the southwest corner first meets the east wall at a distanceqfrom the0threceptor.Given the two integerspandq, returnthe number of the receptor that the ray meets first.The test cases are guaranteed so that the ray will meet a receptor eventually.Example 1:Input:p = 2, q = 1Output:2Explanation:The ray meets receptor 2 the first time it gets reflected back to the left wall.Example 2:Input:p = 3, q = 1Output:1Constraints:1 <= q <= p <= 1000
+
+---TAGS---
+Math, Geometry, Number Theory

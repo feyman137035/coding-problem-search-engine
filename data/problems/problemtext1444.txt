@@ -1,0 +1,4 @@
+Thebeautyof a string is the difference in frequencies between the most frequent and least frequent characters.For example, the beauty of"abaacc"is3 - 1 = 2.Given a strings, returnthe sum ofbeautyof all of its substrings.Example 1:Input:s = "aabcb"Output:5Explanation:The substrings with non-zero beauty are ["aab","aabc","aabcb","abcb","bcb"], each with beauty equal to 1.Example 2:Input:s = "aabcbaa"Output:17Constraints:1 <= s.length <=500sconsists of only lowercase English letters.
+
+---TAGS---
+Hash Table, String, Counting

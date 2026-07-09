@@ -1,0 +1,4 @@
+Given four integer arraysnums1,nums2,nums3, andnums4all of lengthn, return the number of tuples(i, j, k, l)such that:0 <= i, j, k, l < nnums1[i] + nums2[j] + nums3[k] + nums4[l] == 0Example 1:Input:nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]Output:2Explanation:The two tuples are:1. (0, 0, 0, 1) -> nums1[0] + nums2[0] + nums3[0] + nums4[1] = 1 + (-2) + (-1) + 2 = 02. (1, 1, 0, 0) -> nums1[1] + nums2[1] + nums3[0] + nums4[0] = 2 + (-1) + (-1) + 0 = 0Example 2:Input:nums1 = [0], nums2 = [0], nums3 = [0], nums4 = [0]Output:1Constraints:n == nums1.lengthn == nums2.lengthn == nums3.lengthn == nums4.length1 <= n <= 200-228<= nums1[i], nums2[i], nums3[i], nums4[i] <= 228
+
+---TAGS---
+Array, Hash Table

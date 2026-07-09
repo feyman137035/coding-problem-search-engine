@@ -1,0 +1,4 @@
+Given an integernum, returna string of itsbase 7representation.Example 1:Input:num = 100Output:"202"Example 2:Input:num = -7Output:"-10"Constraints:-107<= num <= 107
+
+---TAGS---
+Math, String

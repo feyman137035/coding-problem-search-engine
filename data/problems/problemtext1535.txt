@@ -1,0 +1,4 @@
+You are given an array of stringswords(0-indexed).In one operation, pick twodistinctindicesiandj, wherewords[i]is a non-empty string, and moveanycharacter fromwords[i]toanyposition inwords[j].Returntrueif you can makeeverystring inwordsequalusinganynumber of operations,andfalseotherwise.Example 1:Input:words = ["abc","aabc","bc"]Output:trueExplanation:Move the first 'a' inwords[1] to the front of words[2],to makewords[1]= "abc" and words[2] = "abc".All the strings are now equal to "abc", so returntrue.Example 2:Input:words = ["ab","a"]Output:falseExplanation:It is impossible to make all the strings equal using the operation.Constraints:1 <= words.length <= 1001 <= words[i].length <= 100words[i]consists of lowercase English letters.
+
+---TAGS---
+Hash Table, String, Counting

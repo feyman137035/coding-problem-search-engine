@@ -1,0 +1,4 @@
+Stringss1ands2arek-similar(for some non-negative integerk) if we can swap the positions of two letters ins1exactlyktimes so that the resulting string equalss2.Given two anagramss1ands2, return the smallestkfor whichs1ands2arek-similar.Example 1:Input:s1 = "ab", s2 = "ba"Output:1Explanation:The two string are 1-similar because we can use one swap to change s1 to s2: "ab" --> "ba".Example 2:Input:s1 = "abc", s2 = "bca"Output:2Explanation:The two strings are 2-similar because we can use two swaps to change s1 to s2: "abc" --> "bac" --> "bca".Constraints:1 <= s1.length <= 20s2.length == s1.lengths1ands2contain only lowercase letters from the set{'a', 'b', 'c', 'd', 'e', 'f'}.s2is an anagram ofs1.
+
+---TAGS---
+Hash Table, String, Breadth-First Search

@@ -1,0 +1,4 @@
+Given a balanced parentheses strings, returnthescoreof the string.Thescoreof a balanced parentheses string is based on the following rule:"()"has score1.ABhas scoreA + B, whereAandBare balanced parentheses strings.(A)has score2 * A, whereAis a balanced parentheses string.Example 1:Input:s = "()"Output:1Example 2:Input:s = "(())"Output:2Example 3:Input:s = "()()"Output:2Constraints:2 <= s.length <= 50sconsists of only'('and')'.sis a balanced parentheses string.
+
+---TAGS---
+String, Stack

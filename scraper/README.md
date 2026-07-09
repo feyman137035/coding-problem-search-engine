@@ -35,6 +35,18 @@ python main.py --target 1500 --leetcode-ratio 0.7
 
 If the scraper is interrupted (e.g., by Ctrl+C or crash), simply re-run the same command. The scraper will automatically resume from the last saved checkpoint.
 
+## Backfilling Tags
+
+If you have already scraped problems and want to add LeetCode topic tags (or if some tags are missing), run:
+```bash
+python backfill_tags.py
+```
+This will:
+- Skip CodeChef problems
+- Skip problems that already have tags
+- Fetch only the topic tags for LeetCode problems
+- Use checkpointing to resume if interrupted
+
 ## Output Structure
 
 The scraper saves data in the `data/` directory at the project root:
@@ -44,7 +56,7 @@ data/
 ├── problemtitles.txt     # One title per line, matching problemurls.txt
 └── problems/
     ├── problemtext1.txt  # Plain text of problem 1's statement
-    ├── problemtext2.txt
+    ├── problemtext2.txt  # LeetCode problems will have a "---TAGS---" section at the end
     └── ...
 ```
 

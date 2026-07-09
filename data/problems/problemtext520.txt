@@ -1,0 +1,4 @@
+Given a strings, returnthe number ofpalindromic substringsin it.A string is apalindromewhen it reads the same backward as forward.Asubstringis a contiguous sequence of characters within the string.Example 1:Input:s = "abc"Output:3Explanation:Three palindromic strings: "a", "b", "c".Example 2:Input:s = "aaa"Output:6Explanation:Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".Constraints:1 <= s.length <= 1000sconsists of lowercase English letters.
+
+---TAGS---
+Two Pointers, String, Dynamic Programming

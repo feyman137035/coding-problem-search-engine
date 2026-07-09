@@ -1,0 +1,4 @@
+Given an integern, returntrueifnhasexactly three positive divisors. Otherwise, returnfalse.An integermis adivisorofnif there exists an integerksuch thatn = k * m.Example 1:Input:n = 2Output:falseExplantion:2 has only two divisors: 1 and 2.Example 2:Input:n = 4Output:trueExplantion:4 has three divisors: 1, 2, and 4.Constraints:1 <= n <= 104
+
+---TAGS---
+Math, Enumeration, Number Theory

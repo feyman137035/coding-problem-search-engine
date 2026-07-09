@@ -1,0 +1,4 @@
+Alice and Bob take turns playing a game, with Alice starting first.Initially, there is a numbernon the chalkboard. On each player's turn, that player makes a move consisting of:Choosing any integerxwith0 < x < nandn % x == 0.Replacing the numbernon the chalkboard withn - x.Also, if a player cannot make a move, they lose the game.Returntrueif and only if Alice wins the game, assuming both players play optimally.Example 1:Input:n = 2Output:trueExplanation:Alice chooses 1, and Bob has no more moves.Example 2:Input:n = 3Output:falseExplanation:Alice chooses 1, Bob chooses 1, and Alice has no more moves.Constraints:1 <= n <= 1000
+
+---TAGS---
+Math, Dynamic Programming, Brainteaser, Game Theory

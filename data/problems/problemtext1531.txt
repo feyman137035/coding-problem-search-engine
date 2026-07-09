@@ -1,0 +1,4 @@
+You are given a 2D integer arrayrangesand two integersleftandright. Eachranges[i] = [starti, endi]represents aninclusiveinterval betweenstartiandendi.Returntrueif each integer in the inclusive range[left, right]is covered byat least oneinterval inranges. Returnfalseotherwise.An integerxis covered by an intervalranges[i] = [starti, endi]ifstarti<= x <= endi.Example 1:Input:ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5Output:trueExplanation:Every integer between 2 and 5 is covered:- 2 is covered by the first range.- 3 and 4 are covered by the second range.- 5 is covered by the third range.Example 2:Input:ranges = [[1,10],[10,20]], left = 21, right = 21Output:falseExplanation:21 is not covered by any range.Constraints:1 <= ranges.length <= 501 <= starti<= endi<= 501 <= left <= right <= 50
+
+---TAGS---
+Array, Hash Table, Prefix Sum

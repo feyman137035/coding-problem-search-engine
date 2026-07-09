@@ -1,0 +1,4 @@
+You have an arrayarrof lengthnwherearr[i] = (2 * i) + 1for all valid values ofi(i.e.,0 <= i < n).In one operation, you can select two indicesxandywhere0 <= x, y < nand subtract1fromarr[x]and add1toarr[y](i.e., performarr[x] -=1andarr[y] += 1). The goal is to make all the elements of the arrayequal. It isguaranteedthat all the elements of the array can be made equal using some operations.Given an integern, the length of the array, returnthe minimum number of operationsneeded to make all the elements of arr equal.Example 1:Input:n = 3Output:2Explanation:arr = [1, 3, 5]First operation choose x = 2 and y = 0, this leads arr to be [2, 3, 4]In the second operation choose x = 2 and y = 0 again, thus arr = [3, 3, 3].Example 2:Input:n = 6Output:9Constraints:1 <= n <= 104
+
+---TAGS---
+Math

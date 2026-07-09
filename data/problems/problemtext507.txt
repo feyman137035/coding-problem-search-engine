@@ -1,0 +1,4 @@
+For an integer arraynums, aninverse pairis a pair of integers[i, j]where0 <= i < j < nums.lengthandnums[i] > nums[j].Given two integers n and k, return the number of different arrays consisting of numbers from1tonsuch that there are exactlykinverse pairs. Since the answer can be huge, return itmodulo109+ 7.Example 1:Input:n = 3, k = 0Output:1Explanation:Only the array [1,2,3] which consists of numbers from 1 to 3 has exactly 0 inverse pairs.Example 2:Input:n = 3, k = 1Output:2Explanation:The array [1,3,2] and [2,1,3] have exactly 1 inverse pair.Constraints:1 <= n <= 10000 <= k <= 1000
+
+---TAGS---
+Dynamic Programming

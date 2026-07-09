@@ -1,0 +1,4 @@
+Your task is to calculateabmod1337whereais a positive integer andbis an extremely large positive integer given in the form of an array.Example 1:Input:a = 2, b = [3]Output:8Example 2:Input:a = 2, b = [1,0]Output:1024Example 3:Input:a = 1, b = [4,3,3,8,5,2]Output:1Constraints:1 <= a <= 231- 11 <= b.length <= 20000 <= b[i] <= 9bdoes not contain leading zeros.
+
+---TAGS---
+Math, Divide and Conquer
