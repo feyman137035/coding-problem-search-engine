@@ -1,0 +1,13 @@
+<%- include('partials/header', { title: 'Search Coding Problems' }) %>
+
+  <div class="hero">
+    <h2>Search 2000+ Coding Problems</h2>
+    <p class="tagline">Find problems from LeetCode and CodeChef using natural language queries</p>
+
+    <form action="/search" method="GET" class="search-form">
+      <input type="text" name="query" placeholder="e.g. binary search tree, dynamic programming, linked list" class="search-input" required>
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+  </div>
+
+<%- include('partials/footer') %>
